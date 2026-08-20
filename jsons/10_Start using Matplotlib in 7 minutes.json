@@ -1,0 +1,691 @@
+{
+  "chunks": [
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 0.0,
+      "end": 5.2,
+      "text": " Hey everybody, in this video I'm going to teach you everything you need to know to get started working with Matplotlib."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 5.2,
+      "end": 9.200000000000001,
+      "text": " So I encourage you to sit back, relax, and enjoy the show."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 12.0,
+      "end": 16.0,
+      "text": " Matplotlib is a Python library for creating charts and graphs."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 16.0,
+      "end": 20.2,
+      "text": " You can take plain numbers and turn them into visuals you can actually understand."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 20.2,
+      "end": 23.2,
+      "text": " With just a couple lines of code, you can make your first graph."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 23.2,
+      "end": 25.0,
+      "text": " Boom, Instant Line Graph."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 25.2,
+      "end": 31.4,
+      "text": " You can create line charts, bar charts, scatter plots, histograms, and my favorite pie charts."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 31.4,
+      "end": 32.6,
+      "text": " Because I like pie."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 32.6,
+      "end": 35.6,
+      "text": " You can customize the appearance of what your charts look like too."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 35.6,
+      "end": 39.6,
+      "text": " Here I went a little crazy with the customization, but I think you get the idea."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 39.6,
+      "end": 45.8,
+      "text": " What I would recommend before starting the series, be familiar with all Python subjects up to dictionaries."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 45.8,
+      "end": 50.2,
+      "text": " Knowing numpy and pandas are helpful, but not necessary for the series."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 50.2,
+      "end": 54.0,
+      "text": " I do have some free courses on YouTube to catch you up to speed if you're interested."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 54.2,
+      "end": 56.2,
+      "text": " Anyways, let's begin."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 56.2,
+      "end": 58.0,
+      "text": " Oh yeah, let's do this."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 58.0,
+      "end": 62.4,
+      "text": " To start working with Matplotlib, we have to be sure that we have the library installed."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 62.4,
+      "end": 65.8,
+      "text": " One easy way to check that at the top of your IDE."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 65.8,
+      "end": 70.8,
+      "text": " If you were to import Matplotlib."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 70.8,
+      "end": 77.4,
+      "text": " If it's underlying to read, you can hover your cursor over it and install the package by clicking this link."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 77.4,
+      "end": 83.2,
+      "text": " Now, if this pop-up doesn't appear, if you're using pie charm, you can open up a terminal."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 83.2,
+      "end": 86.0,
+      "text": " Alt F12 is the shortcut."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 86.0,
+      "end": 89.4,
+      "text": " Then use pip to install Matplotlib."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 89.4,
+      "end": 94.60000000000001,
+      "text": " Pip install matplotlib."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 94.60000000000001,
+      "end": 96.60000000000001,
+      "text": " Enter."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 96.60000000000001,
+      "end": 100.0,
+      "text": " Give it a moment to install and that's all you got to do."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 100.0,
+      "end": 103.80000000000001,
+      "text": " We can close out of this terminal."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 103.80000000000001,
+      "end": 107.0,
+      "text": " And that red underlying should go away."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 107.0,
+      "end": 111.60000000000001,
+      "text": " To check the current version with an Apprent statement, we will print."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 111.6,
+      "end": 120.39999999999999,
+      "text": " Access the library of matplotlib.dunder meaning double underscore version."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 120.39999999999999,
+      "end": 122.0,
+      "text": " Dunder again."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 122.0,
+      "end": 129.4,
+      "text": " The current version of matplotlib that I'm using is 3.10.6."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 129.4,
+      "end": 132.4,
+      "text": " We can delete this print statement."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 132.4,
+      "end": 134.79999999999998,
+      "text": " There's a module called piplot."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 134.79999999999998,
+      "end": 137.79999999999998,
+      "text": " It's found within the library of matplotlib."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 137.8,
+      "end": 141.4,
+      "text": " It provides a user-friendly interface for plotting."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 141.4,
+      "end": 148.8,
+      "text": " We're going to import that module by following matplotlib with dot pi plot."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 148.8,
+      "end": 153.4,
+      "text": " So altogether import matplotlib."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 153.4,
+      "end": 159.0,
+      "text": " import matplotlib.py plot."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 159.0,
+      "end": 161.0,
+      "text": " That's a tongue twister."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 161.0,
+      "end": 163.8,
+      "text": " Just so we don't have to type this long name every time."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 163.8,
+      "end": 166.8,
+      "text": " We're going to give it an alias or nickname."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 166.8,
+      "end": 169.8,
+      "text": " As PLT for short."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 169.8,
+      "end": 175.60000000000002,
+      "text": " So in order to access, here we go, matplotlib.py plot."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 175.60000000000002,
+      "end": 179.0,
+      "text": " We're just going to give it a nickname of PLT."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 179.0,
+      "end": 182.20000000000002,
+      "text": " Here's how we can create a basic plot."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 182.20000000000002,
+      "end": 185.20000000000002,
+      "text": " We'll need a set of x and y coordinates."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 185.20000000000002,
+      "end": 188.8,
+      "text": " We'll start with a basic Python list for the x coordinates."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 188.8,
+      "end": 193.20000000000002,
+      "text": " We'll say x equals a Python list."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 193.20000000000002,
+      "end": 195.60000000000002,
+      "text": " Here you can type in some numbers."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 195.79999999999998,
+      "end": 198.6,
+      "text": " I'm going to type in some years."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 198.6,
+      "end": 205.4,
+      "text": " 2023, 2024, 2025, and 2026."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 205.4,
+      "end": 210.2,
+      "text": " And then for the y coordinates, this will be a separate Python list."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 210.2,
+      "end": 211.79999999999998,
+      "text": " Make up some numbers."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 211.79999999999998,
+      "end": 216.4,
+      "text": " In this scenario, let's pretend that we have different class sizes each year."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 216.4,
+      "end": 222.2,
+      "text": " Starting with 2023, there's a class size of 15 students."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 222.2,
+      "end": 229.0,
+      "text": " Then for 2024, we have 25 students, then 30 and 20."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 229.0,
+      "end": 231.6,
+      "text": " Feel free to pick different numbers if you would like."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 231.6,
+      "end": 235.6,
+      "text": " We have a list of x coordinates and a list of y coordinates."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 235.6,
+      "end": 240.2,
+      "text": " Each set of these elements is a pair of x and y coordinates."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 240.2,
+      "end": 244.39999999999998,
+      "text": " We have to be sure that they match."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 244.39999999999998,
+      "end": 250.2,
+      "text": " Now to create a basic plot, we're going to access PLT."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 250.39999999999998,
+      "end": 257.59999999999997,
+      "text": " Call the plot function and then pass in our coordinates x, y."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 257.59999999999997,
+      "end": 261.59999999999997,
+      "text": " The first argument is for the points on the x axis."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 261.59999999999997,
+      "end": 265.5,
+      "text": " The second argument is for the coordinates on the y axis."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 265.5,
+      "end": 269.2,
+      "text": " Now if I were to run this, nothing displays."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 269.2,
+      "end": 272.4,
+      "text": " You also need to call the show function of your plot."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 272.4,
+      "end": 274.0,
+      "text": " Here's how."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 274.0,
+      "end": 278.59999999999997,
+      "text": " When we would like to show our plot, we will access PLT."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 278.6,
+      "end": 284.5,
+      "text": " Call the show function in order to show our plot."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 284.5,
+      "end": 286.6,
+      "text": " Now I'm using PyCharm."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 286.6,
+      "end": 291.90000000000003,
+      "text": " My plot appears on the right hand side in a separate window called plots."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 291.90000000000003,
+      "end": 298.8,
+      "text": " Here's my x axis with all of my years, but we'll have to do some customization in a future topic."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 298.8,
+      "end": 301.40000000000003,
+      "text": " Then here are all the y coordinates."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 301.40000000000003,
+      "end": 304.3,
+      "text": " For 2023, we have 15."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 304.3,
+      "end": 307.20000000000005,
+      "text": " 2024 is 25."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 307.2,
+      "end": 309.2,
+      "text": " 2025 is 30."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 309.2,
+      "end": 312.2,
+      "text": " 2026 is 20."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 312.2,
+      "end": 317.2,
+      "text": " You can change these coordinates to, I don't know, I'll set 30 to be 1000."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 317.2,
+      "end": 319.2,
+      "text": " Let's see what this looks like."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 319.2,
+      "end": 322.2,
+      "text": " And we get a different plot."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 322.2,
+      "end": 325.2,
+      "text": " But I'll change that back."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 325.2,
+      "end": 332.7,
+      "text": " You can also close out of past versions of plots by hitting this x button next to each."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 332.7,
+      "end": 336.7,
+      "text": " Now for the plot function, if you only pass in a single parameter,"
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 336.7,
+      "end": 340.7,
+      "text": " this argument would be for points on the y axis."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 340.7,
+      "end": 344.7,
+      "text": " And here's what that would look like."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 344.7,
+      "end": 354.2,
+      "text": " The default behavior for plot is to start at 0 and place a point at each increment of 1, 1, 2, 3."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 354.2,
+      "end": 358.7,
+      "text": " But each of these ticks, they increment by 0.5 each."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 358.7,
+      "end": 363.2,
+      "text": " The points on the x axis will be provided to you."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 363.2,
+      "end": 367.2,
+      "text": " But we'll pass in both x and y."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 367.2,
+      "end": 373.7,
+      "text": " Now if you're familiar with numpy, we could instead use numpy arrays because they're faster than Python lists."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 373.7,
+      "end": 382.2,
+      "text": " To set that up, we will import numpy as np for short."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 382.2,
+      "end": 391.2,
+      "text": " We'll assign x to be a numpy array, np.array function, and then passing your Python list."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 391.2,
+      "end": 398.2,
+      "text": " Then do the same thing with y, np.array, passing your Python list."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 398.2,
+      "end": 401.2,
+      "text": " And that's all you have to do."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 401.2,
+      "end": 406.2,
+      "text": " Numpy arrays are faster than Python lists, and give you more functionality."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 406.2,
+      "end": 411.2,
+      "text": " Your homework is in the comment section, either post two lists or two numpy arrays."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 411.2,
+      "end": 414.2,
+      "text": " Try and think of something creative if you can."
+    },
+    {
+      "number": "10",
+      "title": "Start using Matplotlib in 7 minutes",
+      "start": 414.2,
+      "end": 420.2,
+      "text": " All right, everybody, and that is an introduction to creating basic plots in MAT plotlib."
+    }
+  ],
+  "text": " Hey everybody, in this video I'm going to teach you everything you need to know to get started working with Matplotlib. So I encourage you to sit back, relax, and enjoy the show. Matplotlib is a Python library for creating charts and graphs. You can take plain numbers and turn them into visuals you can actually understand. With just a couple lines of code, you can make your first graph. Boom, Instant Line Graph. You can create line charts, bar charts, scatter plots, histograms, and my favorite pie charts. Because I like pie. You can customize the appearance of what your charts look like too. Here I went a little crazy with the customization, but I think you get the idea. What I would recommend before starting the series, be familiar with all Python subjects up to dictionaries. Knowing numpy and pandas are helpful, but not necessary for the series. I do have some free courses on YouTube to catch you up to speed if you're interested. Anyways, let's begin. Oh yeah, let's do this. To start working with Matplotlib, we have to be sure that we have the library installed. One easy way to check that at the top of your IDE. If you were to import Matplotlib. If it's underlying to read, you can hover your cursor over it and install the package by clicking this link. Now, if this pop-up doesn't appear, if you're using pie charm, you can open up a terminal. Alt F12 is the shortcut. Then use pip to install Matplotlib. Pip install matplotlib. Enter. Give it a moment to install and that's all you got to do. We can close out of this terminal. And that red underlying should go away. To check the current version with an Apprent statement, we will print. Access the library of matplotlib.dunder meaning double underscore version. Dunder again. The current version of matplotlib that I'm using is 3.10.6. We can delete this print statement. There's a module called piplot. It's found within the library of matplotlib. It provides a user-friendly interface for plotting. We're going to import that module by following matplotlib with dot pi plot. So altogether import matplotlib. import matplotlib.py plot. That's a tongue twister. Just so we don't have to type this long name every time. We're going to give it an alias or nickname. As PLT for short. So in order to access, here we go, matplotlib.py plot. We're just going to give it a nickname of PLT. Here's how we can create a basic plot. We'll need a set of x and y coordinates. We'll start with a basic Python list for the x coordinates. We'll say x equals a Python list. Here you can type in some numbers. I'm going to type in some years. 2023, 2024, 2025, and 2026. And then for the y coordinates, this will be a separate Python list. Make up some numbers. In this scenario, let's pretend that we have different class sizes each year. Starting with 2023, there's a class size of 15 students. Then for 2024, we have 25 students, then 30 and 20. Feel free to pick different numbers if you would like. We have a list of x coordinates and a list of y coordinates. Each set of these elements is a pair of x and y coordinates. We have to be sure that they match. Now to create a basic plot, we're going to access PLT. Call the plot function and then pass in our coordinates x, y. The first argument is for the points on the x axis. The second argument is for the coordinates on the y axis. Now if I were to run this, nothing displays. You also need to call the show function of your plot. Here's how. When we would like to show our plot, we will access PLT. Call the show function in order to show our plot. Now I'm using PyCharm. My plot appears on the right hand side in a separate window called plots. Here's my x axis with all of my years, but we'll have to do some customization in a future topic. Then here are all the y coordinates. For 2023, we have 15. 2024 is 25. 2025 is 30. 2026 is 20. You can change these coordinates to, I don't know, I'll set 30 to be 1000. Let's see what this looks like. And we get a different plot. But I'll change that back. You can also close out of past versions of plots by hitting this x button next to each. Now for the plot function, if you only pass in a single parameter, this argument would be for points on the y axis. And here's what that would look like. The default behavior for plot is to start at 0 and place a point at each increment of 1, 1, 2, 3. But each of these ticks, they increment by 0.5 each. The points on the x axis will be provided to you. But we'll pass in both x and y. Now if you're familiar with numpy, we could instead use numpy arrays because they're faster than Python lists. To set that up, we will import numpy as np for short. We'll assign x to be a numpy array, np.array function, and then passing your Python list. Then do the same thing with y, np.array, passing your Python list. And that's all you have to do. Numpy arrays are faster than Python lists, and give you more functionality. Your homework is in the comment section, either post two lists or two numpy arrays. Try and think of something creative if you can. All right, everybody, and that is an introduction to creating basic plots in MAT plotlib."
+}

@@ -1,0 +1,1041 @@
+{
+  "chunks": [
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 0.0,
+      "end": 3.64,
+      "text": " In this video, I'm going to show you how we can start customizing our plots."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 3.64,
+      "end": 6.68,
+      "text": " More specifically, we'll be customizing the lines and markers."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 6.68,
+      "end": 7.48,
+      "text": " Here's how."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 7.48,
+      "end": 11.52,
+      "text": " Within our plot function, we can pass one of a few keyword arguments."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 11.52,
+      "end": 14.32,
+      "text": " One of which is marker."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 14.32,
+      "end": 16.88,
+      "text": " Marker equals a given character."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 16.88,
+      "end": 21.36,
+      "text": " Depending on the character that you set for marker, your marker will be one of a few symbols."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 21.36,
+      "end": 25.96,
+      "text": " For example, if your marker is set to be a period, a point."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 26.04,
+      "end": 30.0,
+      "text": " Each set of coordinates has a point, although it's a little hard to see."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 30.0,
+      "end": 31.76,
+      "text": " I'll try and zoom in."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 31.76,
+      "end": 34.84,
+      "text": " You can see that each set of coordinates has a point."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 34.84,
+      "end": 38.120000000000005,
+      "text": " Another is circle, that would be an O."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 38.120000000000005,
+      "end": 41.72,
+      "text": " Triangle down is a V."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 41.72,
+      "end": 45.68,
+      "text": " For a star, you can use an asterisk."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 45.68,
+      "end": 48.519999999999996,
+      "text": " These are a few markers you can use, but not all of them."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 48.519999999999996,
+      "end": 51.92,
+      "text": " If you read the documentation, there's a fairly extensive list."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 51.96,
+      "end": 57.0,
+      "text": " Far project for the marker will set it to be a dot, a period."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 57.0,
+      "end": 60.160000000000004,
+      "text": " But then you can change the marker size if this is too small."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 60.160000000000004,
+      "end": 63.480000000000004,
+      "text": " That will be a separate keyword argument."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 63.480000000000004,
+      "end": 68.36,
+      "text": " For the keyword argument of marker size, pick a size."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 68.36,
+      "end": 72.2,
+      "text": " Here's what 10 looks like."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 72.2,
+      "end": 75.0,
+      "text": " Here's 20."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 75.0,
+      "end": 77.48,
+      "text": " 30."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 77.48,
+      "end": 82.60000000000001,
+      "text": " What's a thousand look like? I'm curious."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 82.60000000000001,
+      "end": 85.36,
+      "text": " No, go back, go back, go back."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 85.36,
+      "end": 88.08,
+      "text": " We'll set it to be 30."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 88.08,
+      "end": 92.36,
+      "text": " For the marker size, it can be abbreviated to MS."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 92.36,
+      "end": 94.12,
+      "text": " MS meaning marker size."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 94.12,
+      "end": 100.04,
+      "text": " But for teaching purposes, I'll keep this as marker size, just because it's easier to read and understand."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 100.04,
+      "end": 102.2,
+      "text": " Here's how to change the marker colors."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 102.2,
+      "end": 106.32000000000001,
+      "text": " This is a separate keyword argument."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 106.36,
+      "end": 110.16,
+      "text": " Marker face color."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 110.16,
+      "end": 112.08,
+      "text": " And here you can pick a color."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 112.08,
+      "end": 114.16,
+      "text": " You can select the name of a color."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 114.16,
+      "end": 119.39999999999999,
+      "text": " You can use RGB values, hexadecimal values, or HSL values."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 119.39999999999999,
+      "end": 125.88,
+      "text": " Let's start with something simple like the name of a color, such as cyan."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 125.88,
+      "end": 128.44,
+      "text": " The markers are now this color, cyan."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 128.44,
+      "end": 133.0,
+      "text": " But for better customization, I recommend looking up a color picker."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 133.0,
+      "end": 136.2,
+      "text": " So here's a color picker that we can use."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 136.2,
+      "end": 139.79999999999998,
+      "text": " I would like a very specific shade of blue."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 139.79999999999998,
+      "end": 143.67999999999998,
+      "text": " Something like, that's pretty good."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 143.67999999999998,
+      "end": 148.23999999999998,
+      "text": " I'll just select this hexadecimal value."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 148.23999999999998,
+      "end": 153.92,
+      "text": " We're going to paste that hexadecimal value and rerun this program."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 153.92,
+      "end": 160.35999999999999,
+      "text": " And now we have a very specific shade of blue for the marker face color."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 160.35999999999999,
+      "end": 164.83999999999997,
+      "text": " For this keyword, you can also shorten this to MFC."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 164.88,
+      "end": 167.88,
+      "text": " It's shorter, but not as readable for a beginner."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 167.88,
+      "end": 172.04,
+      "text": " I'll keep it as is marker face color."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 172.04,
+      "end": 178.48000000000002,
+      "text": " Then for the edges, you can use marker edge color."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 178.48000000000002,
+      "end": 182.84,
+      "text": " I'll set it to be the same color, or you could pick a different color if you would like."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 182.84,
+      "end": 184.12,
+      "text": " We'll keep it the same."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 184.12,
+      "end": 188.8,
+      "text": " Now the edges of each marker are the same color as the face."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 188.8,
+      "end": 194.64000000000001,
+      "text": " The abbreviated version of this word is MEC, in case you see it."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 194.64,
+      "end": 197.6,
+      "text": " Now we'll start working with the lines."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 197.6,
+      "end": 200.23999999999998,
+      "text": " You can select a line style."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 200.23999999999998,
+      "end": 202.88,
+      "text": " The default is solid."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 202.88,
+      "end": 205.64,
+      "text": " Let's use a dashed line."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 205.64,
+      "end": 210.32,
+      "text": " Here's what it looks like."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 210.32,
+      "end": 212.95999999999998,
+      "text": " For the line, it's now dashed."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 212.95999999999998,
+      "end": 216.11999999999998,
+      "text": " Or we could do dotted."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 216.11999999999998,
+      "end": 218.72,
+      "text": " Dotted."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 218.72,
+      "end": 221.48,
+      "text": " We have a dotted line now."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 221.48,
+      "end": 223.83999999999997,
+      "text": " Or dash dot."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 223.84,
+      "end": 230.56,
+      "text": " It's a combination of dashes and dots."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 230.56,
+      "end": 238.84,
+      "text": " Or for a no line, if you just want the points, the markers, you can set this to be none."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 238.84,
+      "end": 243.04,
+      "text": " Then we have no line."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 243.04,
+      "end": 246.04,
+      "text": " But let's set it to be solid."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 246.04,
+      "end": 249.56,
+      "text": " Solid."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 249.56,
+      "end": 253.8,
+      "text": " Here's how you can change the line width, because right now it's fairly skinny."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 254.68,
+      "end": 258.0,
+      "text": " We will pass in a keyword argument of line width."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 258.0,
+      "end": 264.04,
+      "text": " Normally it's one, but here's what two looks like."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 264.04,
+      "end": 267.64,
+      "text": " I'll set this to be three."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 267.64,
+      "end": 270.44,
+      "text": " Four."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 270.44,
+      "end": 274.04,
+      "text": " And I don't know what's ten look like."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 274.04,
+      "end": 275.16,
+      "text": " That's a little too much."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 275.16,
+      "end": 277.8,
+      "text": " Let's set it to be four."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 277.8,
+      "end": 280.72,
+      "text": " Yeah, that's pretty decent."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 280.72,
+      "end": 284.76000000000005,
+      "text": " Here's how to change the line color."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 284.76000000000005,
+      "end": 289.52000000000004,
+      "text": " Set the color to be, then pick a color."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 289.52000000000004,
+      "end": 292.72,
+      "text": " I'll use that color picker again."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 292.72,
+      "end": 293.72,
+      "text": " Let's see."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 293.72,
+      "end": 298.40000000000003,
+      "text": " I'll select something kind of dark blue, like that."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 298.40000000000003,
+      "end": 302.48,
+      "text": " Copy and paste the color value."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 302.48,
+      "end": 304.6,
+      "text": " And here's what we got."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 304.6,
+      "end": 308.84000000000003,
+      "text": " Our line color is now a very specific shade."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 308.84,
+      "end": 312.67999999999995,
+      "text": " Now let's say we have more than one line to customize."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 312.67999999999995,
+      "end": 315.23999999999995,
+      "text": " I'm going to create another numpy array."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 315.23999999999995,
+      "end": 319.84,
+      "text": " We'll rename y is y1, plot x and y1."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 319.84,
+      "end": 322.59999999999997,
+      "text": " Then we will also have y2."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 322.59999999999997,
+      "end": 324.84,
+      "text": " And I'll just do some copy and pasting."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 324.84,
+      "end": 327.28,
+      "text": " Y2 will have some different values."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 327.28,
+      "end": 328.28,
+      "text": " Make up some values."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 328.28,
+      "end": 337.67999999999995,
+      "text": " I'll say, I don't know, 17, 23, 38, and I don't know, five."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 337.68,
+      "end": 340.96,
+      "text": " When your values don't have to be the same as mine, feel free to pick some different"
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 340.96,
+      "end": 342.96,
+      "text": " numbers."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 342.96,
+      "end": 347.68,
+      "text": " We're plotting x and y1, but we'll also plot x and y2."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 347.68,
+      "end": 350.84000000000003,
+      "text": " That set a coordinates."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 350.84000000000003,
+      "end": 359.4,
+      "text": " Access PLT, call the plot function, pass an x and y2."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 359.4,
+      "end": 363.4,
+      "text": " So now we have two lines, but our second line doesn't have the same customizations as"
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 363.4,
+      "end": 364.8,
+      "text": " our first line."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 364.8,
+      "end": 367.44,
+      "text": " Here's one option, although I don't recommend it."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 367.44,
+      "end": 373.84,
+      "text": " You could copy and paste all of these keyword arguments and pass them in."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 373.84,
+      "end": 377.28,
+      "text": " This would work, although here's a much better option."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 377.28,
+      "end": 382.16,
+      "text": " You could instead create a dictionary with all of these keyword arguments."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 382.16,
+      "end": 385.8,
+      "text": " And then when we plot a line, we can just unpack our dictionary."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 385.8,
+      "end": 387.6,
+      "text": " Here's how we can do that."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 387.6,
+      "end": 393.72,
+      "text": " Let's create a dictionary which will name line underscore style."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 393.72,
+      "end": 398.92,
+      "text": " This will equal, call the dictionary function to create a dictionary."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 398.92,
+      "end": 408.96000000000004,
+      "text": " We'll cut all of these keyword arguments and then place them within the dictionary function."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 408.96000000000004,
+      "end": 415.04,
+      "text": " Now we could just pass in the dictionary when we plot a line."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 415.04,
+      "end": 419.48,
+      "text": " We just have to unpack it using double-astarist."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 419.48,
+      "end": 422.56,
+      "text": " Unpack the line style dictionary."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 422.56,
+      "end": 427.2,
+      "text": " And it's as if we're passing in all of these individual keyword arguments."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 427.2,
+      "end": 430.28000000000003,
+      "text": " We'll do this for the second line as well."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 430.28000000000003,
+      "end": 434.48,
+      "text": " Unpack our line style dictionary."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 434.48,
+      "end": 436.6,
+      "text": " And it's the same."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 436.6,
+      "end": 439.24,
+      "text": " Let's create a third line."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 439.24,
+      "end": 441.28,
+      "text": " We'll name this line y3."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 441.28,
+      "end": 443.96,
+      "text": " This will be another numpy array."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 443.96,
+      "end": 445.48,
+      "text": " Make up some values."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 445.48,
+      "end": 453.32,
+      "text": " 13, then 15, 20 and 30."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 453.32,
+      "end": 455.52000000000004,
+      "text": " Then we'll have to plot this line."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 455.52000000000004,
+      "end": 461.88,
+      "text": " Access PLT, call the plot function, pass in our new coordinates x and y3."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 461.88,
+      "end": 466.28000000000003,
+      "text": " Then we will unpack our dictionary of line style."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 466.28000000000003,
+      "end": 469.6,
+      "text": " Then we should have a third line."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 469.6,
+      "end": 471.72,
+      "text": " Which we do."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 471.72,
+      "end": 474.40000000000003,
+      "text": " All of these lines are the same color."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 474.4,
+      "end": 478.67999999999995,
+      "text": " That's because with our dictionary of line style, we've set all the colors to be the"
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 478.67999999999995,
+      "end": 479.96,
+      "text": " same."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 479.96,
+      "end": 483.15999999999997,
+      "text": " But you could pass in an individual color."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 483.15999999999997,
+      "end": 488.67999999999995,
+      "text": " Think of this as the default color for all lines if we use the line style dictionary."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 488.67999999999995,
+      "end": 492.84,
+      "text": " Another option is that we can cut this keyword attribute of color."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 492.84,
+      "end": 497.4,
+      "text": " And then pass that as a separate keyword argument as well as the line style dictionary"
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 497.4,
+      "end": 499.35999999999996,
+      "text": " after unpacking it."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 499.35999999999996,
+      "end": 501.91999999999996,
+      "text": " So let's pass in a color."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 501.91999999999996,
+      "end": 502.91999999999996,
+      "text": " Then pick a color."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 503.24,
+      "end": 506.08000000000004,
+      "text": " I'll keep the first line to be blue."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 506.08000000000004,
+      "end": 508.40000000000003,
+      "text": " For the second line, I'll pick a different color."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 508.40000000000003,
+      "end": 512.2,
+      "text": " Let's go with something green."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 512.2,
+      "end": 514.2,
+      "text": " That's good."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 514.2,
+      "end": 518.28,
+      "text": " We'll pass in a different color for the second line."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 518.28,
+      "end": 525.88,
+      "text": " Then for the third line, I'll pass in a color that's red."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 525.88,
+      "end": 532.6,
+      "text": " That's good."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 532.6,
+      "end": 535.96,
+      "text": " And now each of our lines has a different color."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 535.96,
+      "end": 539.2,
+      "text": " Art everybody, so that is some basic plot customization."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 539.2,
+      "end": 541.5600000000001,
+      "text": " In the next video, we'll discuss labels."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 541.5600000000001,
+      "end": 543.72,
+      "text": " Tell increasing engagement with this video."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 543.72,
+      "end": 546.0400000000001,
+      "text": " Comment down below what your favorite food is."
+    },
+    {
+      "number": "3",
+      "title": "Matplotlib customization is easy",
+      "start": 546.0400000000001,
+      "end": 550.44,
+      "text": " And while everybody, that is an introduction to plot customization using matplotlib."
+    }
+  ],
+  "text": " In this video, I'm going to show you how we can start customizing our plots. More specifically, we'll be customizing the lines and markers. Here's how. Within our plot function, we can pass one of a few keyword arguments. One of which is marker. Marker equals a given character. Depending on the character that you set for marker, your marker will be one of a few symbols. For example, if your marker is set to be a period, a point. Each set of coordinates has a point, although it's a little hard to see. I'll try and zoom in. You can see that each set of coordinates has a point. Another is circle, that would be an O. Triangle down is a V. For a star, you can use an asterisk. These are a few markers you can use, but not all of them. If you read the documentation, there's a fairly extensive list. Far project for the marker will set it to be a dot, a period. But then you can change the marker size if this is too small. That will be a separate keyword argument. For the keyword argument of marker size, pick a size. Here's what 10 looks like. Here's 20. 30. What's a thousand look like? I'm curious. No, go back, go back, go back. We'll set it to be 30. For the marker size, it can be abbreviated to MS. MS meaning marker size. But for teaching purposes, I'll keep this as marker size, just because it's easier to read and understand. Here's how to change the marker colors. This is a separate keyword argument. Marker face color. And here you can pick a color. You can select the name of a color. You can use RGB values, hexadecimal values, or HSL values. Let's start with something simple like the name of a color, such as cyan. The markers are now this color, cyan. But for better customization, I recommend looking up a color picker. So here's a color picker that we can use. I would like a very specific shade of blue. Something like, that's pretty good. I'll just select this hexadecimal value. We're going to paste that hexadecimal value and rerun this program. And now we have a very specific shade of blue for the marker face color. For this keyword, you can also shorten this to MFC. It's shorter, but not as readable for a beginner. I'll keep it as is marker face color. Then for the edges, you can use marker edge color. I'll set it to be the same color, or you could pick a different color if you would like. We'll keep it the same. Now the edges of each marker are the same color as the face. The abbreviated version of this word is MEC, in case you see it. Now we'll start working with the lines. You can select a line style. The default is solid. Let's use a dashed line. Here's what it looks like. For the line, it's now dashed. Or we could do dotted. Dotted. We have a dotted line now. Or dash dot. It's a combination of dashes and dots. Or for a no line, if you just want the points, the markers, you can set this to be none. Then we have no line. But let's set it to be solid. Solid. Here's how you can change the line width, because right now it's fairly skinny. We will pass in a keyword argument of line width. Normally it's one, but here's what two looks like. I'll set this to be three. Four. And I don't know what's ten look like. That's a little too much. Let's set it to be four. Yeah, that's pretty decent. Here's how to change the line color. Set the color to be, then pick a color. I'll use that color picker again. Let's see. I'll select something kind of dark blue, like that. Copy and paste the color value. And here's what we got. Our line color is now a very specific shade. Now let's say we have more than one line to customize. I'm going to create another numpy array. We'll rename y is y1, plot x and y1. Then we will also have y2. And I'll just do some copy and pasting. Y2 will have some different values. Make up some values. I'll say, I don't know, 17, 23, 38, and I don't know, five. When your values don't have to be the same as mine, feel free to pick some different numbers. We're plotting x and y1, but we'll also plot x and y2. That set a coordinates. Access PLT, call the plot function, pass an x and y2. So now we have two lines, but our second line doesn't have the same customizations as our first line. Here's one option, although I don't recommend it. You could copy and paste all of these keyword arguments and pass them in. This would work, although here's a much better option. You could instead create a dictionary with all of these keyword arguments. And then when we plot a line, we can just unpack our dictionary. Here's how we can do that. Let's create a dictionary which will name line underscore style. This will equal, call the dictionary function to create a dictionary. We'll cut all of these keyword arguments and then place them within the dictionary function. Now we could just pass in the dictionary when we plot a line. We just have to unpack it using double-astarist. Unpack the line style dictionary. And it's as if we're passing in all of these individual keyword arguments. We'll do this for the second line as well. Unpack our line style dictionary. And it's the same. Let's create a third line. We'll name this line y3. This will be another numpy array. Make up some values. 13, then 15, 20 and 30. Then we'll have to plot this line. Access PLT, call the plot function, pass in our new coordinates x and y3. Then we will unpack our dictionary of line style. Then we should have a third line. Which we do. All of these lines are the same color. That's because with our dictionary of line style, we've set all the colors to be the same. But you could pass in an individual color. Think of this as the default color for all lines if we use the line style dictionary. Another option is that we can cut this keyword attribute of color. And then pass that as a separate keyword argument as well as the line style dictionary after unpacking it. So let's pass in a color. Then pick a color. I'll keep the first line to be blue. For the second line, I'll pick a different color. Let's go with something green. That's good. We'll pass in a different color for the second line. Then for the third line, I'll pass in a color that's red. That's good. And now each of our lines has a different color. Art everybody, so that is some basic plot customization. In the next video, we'll discuss labels. Tell increasing engagement with this video. Comment down below what your favorite food is. And while everybody, that is an introduction to plot customization using matplotlib."
+}

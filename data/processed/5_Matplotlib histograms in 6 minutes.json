@@ -1,0 +1,768 @@
+{
+  "chunks": [
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 0.0,
+      "end": 4.76,
+      "text": " Yo, everybody in this video I'm gonna explain histograms in MAT Plotlib."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 4.76,
+      "end": 10.700000000000001,
+      "text": " Histograms are a visual representation of the distribution of quantitative data."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 10.700000000000001,
+      "end": 14.68,
+      "text": " In short, we can visualize the distribution of data."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 14.68,
+      "end": 17.68,
+      "text": " Histograms group values into bins."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 17.68,
+      "end": 19.76,
+      "text": " Think of these like intervals."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 19.76,
+      "end": 23.56,
+      "text": " We'll count how many fall in each range in each bucket or bin."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 23.56,
+      "end": 27.0,
+      "text": " Histograms are great for statistics and probability."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 27.0,
+      "end": 30.36,
+      "text": " In many cases, you'll see a bell curve distribution."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 30.36,
+      "end": 35.36,
+      "text": " Now, in this demonstration, I recommend using numpy because we'll need a lot of data to work with."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 35.36,
+      "end": 37.88,
+      "text": " With numpy, we can generate some random numbers."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 37.88,
+      "end": 39.04,
+      "text": " Here's how we can do that."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 39.04,
+      "end": 40.92,
+      "text": " We're going to create some test scores."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 40.92,
+      "end": 45.04,
+      "text": " We're a teacher and we have 100 students that each took a test."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 45.04,
+      "end": 48.400000000000006,
+      "text": " We'll create a visual to display the distribution of scores."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 48.400000000000006,
+      "end": 51.0,
+      "text": " We'll create a numpy array of scores."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 51.0,
+      "end": 54.68,
+      "text": " Scores equals Np,"
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 54.68,
+      "end": 56.519999999999996,
+      "text": " axis random,"
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 56.56,
+      "end": 60.720000000000006,
+      "text": " then call the normal function for a normal distribution."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 60.720000000000006,
+      "end": 63.68000000000001,
+      "text": " There's a few keyword arguments here we'll pass in."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 63.68000000000001,
+      "end": 66.24000000000001,
+      "text": " The first is LOC."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 66.24000000000001,
+      "end": 68.16,
+      "text": " LOC equals."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 68.16,
+      "end": 72.48,
+      "text": " LOC is the location of the center, the median of our data."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 72.48,
+      "end": 75.24000000000001,
+      "text": " For the center, we'll say that the median is 80."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 75.24000000000001,
+      "end": 76.44,
+      "text": " 80%."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 76.44,
+      "end": 80.56,
+      "text": " All of the test scores are going to cluster around this score of 80."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 80.56,
+      "end": 82.4,
+      "text": " Most students will do pretty well."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 82.4,
+      "end": 87.04,
+      "text": " If this were a lower score like 50, that means most of the students failed."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 87.04,
+      "end": 90.68,
+      "text": " That's because the most frequent score is going to be around 50%."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 90.68,
+      "end": 92.64,
+      "text": " We'll set that to be 80."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 92.64,
+      "end": 93.68,
+      "text": " Now we'll need a scale."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 93.68,
+      "end": 95.60000000000001,
+      "text": " This is another keyword argument."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 95.60000000000001,
+      "end": 97.36000000000001,
+      "text": " Scale equals."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 97.36000000000001,
+      "end": 100.36000000000001,
+      "text": " Scale is the standard deviation, the spread."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 100.36000000000001,
+      "end": 104.96000000000001,
+      "text": " How far away are the scores going to deviate from the center?"
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 104.96000000000001,
+      "end": 107.92,
+      "text": " The higher the number, the greater the deviation."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 107.92,
+      "end": 109.68,
+      "text": " Let's start with 10."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 109.72000000000001,
+      "end": 113.16000000000001,
+      "text": " And then we need to size how many numbers we want to generate."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 113.16000000000001,
+      "end": 116.0,
+      "text": " We'll set size equal to 100."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 116.0,
+      "end": 118.52000000000001,
+      "text": " We have 100 test scores."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 118.52000000000001,
+      "end": 120.96000000000001,
+      "text": " Let's test what we have currently."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 120.96000000000001,
+      "end": 126.04,
+      "text": " We'll access PLT, call the hist function for a histogram,"
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 126.04,
+      "end": 129.04000000000002,
+      "text": " pass in our numpy array of scores."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 129.04000000000002,
+      "end": 133.0,
+      "text": " Then we do have to call the show function to show our histogram."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 133.0,
+      "end": 135.32,
+      "text": " Access PLT, call the show function."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 137.32,
+      "end": 139.48000000000002,
+      "text": " Here's what a histogram looks like."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 139.48,
+      "end": 141.64,
+      "text": " We set the center to be 80."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 141.64,
+      "end": 145.32,
+      "text": " Scores around that number are going to be the most frequent."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 145.32,
+      "end": 147.28,
+      "text": " And we've set the scale to be 10."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 147.28,
+      "end": 149.28,
+      "text": " 10 is the standard deviation."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 149.28,
+      "end": 151.67999999999998,
+      "text": " That's a statistics and probability turn."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 151.67999999999998,
+      "end": 154.92,
+      "text": " How far away will the scores deviate from the center?"
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 154.92,
+      "end": 160.79999999999998,
+      "text": " Now if I set the scale to be a small number like 1,"
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 160.79999999999998,
+      "end": 164.35999999999999,
+      "text": " the scores are going to cluster more closely to 80."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 164.35999999999999,
+      "end": 169.16,
+      "text": " The lowest score was 77, the highest score was 82."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 169.16,
+      "end": 174.32,
+      "text": " If I set scale to be a big number like 50,"
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 174.32,
+      "end": 177.84,
+      "text": " well then the scores really deviate from the center of 80."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 177.84,
+      "end": 184.07999999999998,
+      "text": " We have some students that scored below 0 and others above 200."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 184.07999999999998,
+      "end": 185.48,
+      "text": " Let's set that back to 10."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 188.6,
+      "end": 193.16,
+      "text": " Just to ensure that no scores go below 0 or above 100,"
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 193.16,
+      "end": 196.92,
+      "text": " we can use the clip function."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 196.92,
+      "end": 200.11999999999998,
+      "text": " We'll reassign our numpy array of scores."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 200.11999999999998,
+      "end": 205.72,
+      "text": " Access numpy, call the clip function."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 205.72,
+      "end": 209.72,
+      "text": " We have to pass in our numpy array of scores."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 209.72,
+      "end": 213.16,
+      "text": " For any scores below 0, we'll set them to be 0."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 213.16,
+      "end": 214.88,
+      "text": " We'll clip them."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 214.88,
+      "end": 220.44,
+      "text": " For any scores above 100, we'll clip them down to 100."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 220.44,
+      "end": 222.88,
+      "text": " It's kind of like we're setting the bounds, the minimum"
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 222.88,
+      "end": 223.72,
+      "text": " and the maximum."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 227.92,
+      "end": 230.83999999999997,
+      "text": " All scores below 0 will be set to 0."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 230.83999999999997,
+      "end": 234.83999999999997,
+      "text": " All scores above 100 will be set to 100."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 234.83999999999997,
+      "end": 239.07999999999998,
+      "text": " Let's set the scale back to something massive like 50."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 239.07999999999998,
+      "end": 244.6,
+      "text": " Yep, there's no scores below 0 and no scores above 100."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 244.6,
+      "end": 248.44,
+      "text": " But we don't need a scale that big."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 248.44,
+      "end": 250.2,
+      "text": " Let's add some customization."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 250.2,
+      "end": 252.2,
+      "text": " You can set the number of bins that you want"
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 252.2,
+      "end": 254.27999999999997,
+      "text": " as another keyboard argument."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 254.36,
+      "end": 258.2,
+      "text": " This will be within the HIST function for a histogram."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 258.2,
+      "end": 260.76,
+      "text": " I'll set the number of bins to be 10."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 263.24,
+      "end": 266.44,
+      "text": " We should now have 10 bins or intervals."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 266.44,
+      "end": 271.8,
+      "text": " 1, 2, 3, 4, 5, 6, 7, 8, 9, 10."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 271.8,
+      "end": 274.6,
+      "text": " I'll set this to 20."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 274.6,
+      "end": 276.36,
+      "text": " We would now have 20."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 276.36,
+      "end": 279.72,
+      "text": " But I think 10 is a good number."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 279.72,
+      "end": 282.84000000000003,
+      "text": " Let's change the color."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 282.91999999999996,
+      "end": 285.08,
+      "text": " That's another keyboard argument."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 285.08,
+      "end": 288.03999999999996,
+      "text": " Color equals pick a color."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 288.03999999999996,
+      "end": 290.44,
+      "text": " I'll just set my histogram to be like green."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 293.4,
+      "end": 295.0,
+      "text": " There we go."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 295.0,
+      "end": 298.91999999999996,
+      "text": " To better define the edges, you can set an edge color."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 298.91999999999996,
+      "end": 301.47999999999996,
+      "text": " Because right now it kind of looks like one massive blob."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 303.47999999999996,
+      "end": 307.79999999999995,
+      "text": " Edge color equals, I'll set it to be black."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 307.79999999999995,
+      "end": 311.55999999999995,
+      "text": " We should get a nice outline around each interval or bin."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 313.0,
+      "end": 316.76,
+      "text": " Let's add some labels because well, I forgot to do that."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 316.76,
+      "end": 321.56,
+      "text": " Let's add a title, PLT, called the title function."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 321.56,
+      "end": 324.2,
+      "text": " We'll say exam scores."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 326.12,
+      "end": 328.2,
+      "text": " Let's make sure that that works."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 328.2,
+      "end": 329.96,
+      "text": " Yes, it does."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 329.96,
+      "end": 332.91999999999996,
+      "text": " Let's set a label for the x-axis."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 332.91999999999996,
+      "end": 335.96,
+      "text": " PLT, called the x-label function."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 335.96,
+      "end": 338.84,
+      "text": " We'll say score."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 338.84,
+      "end": 340.03999999999996,
+      "text": " Here we go."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 340.03999999999996,
+      "end": 341.15999999999997,
+      "text": " Score."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 341.24,
+      "end": 345.16,
+      "text": " And for the y-axis, PLT, called the y-label function."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 347.64000000000004,
+      "end": 349.16,
+      "text": " Number of students."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 352.6,
+      "end": 354.44000000000005,
+      "text": " Number of students is on the y-axis."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 355.16,
+      "end": 357.08000000000004,
+      "text": " Art everybody, so that's a histogram."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 357.72,
+      "end": 362.76000000000005,
+      "text": " It's a visual representation of the distribution of quantitative data."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 363.64000000000004,
+      "end": 366.20000000000005,
+      "text": " We're displaying the distribution of data."
+    },
+    {
+      "number": "5",
+      "title": "Matplotlib histograms in 6 minutes",
+      "start": 366.92,
+      "end": 370.12,
+      "text": " And while everybody, those are histograms in Matplotlib."
+    }
+  ],
+  "text": " Yo, everybody in this video I'm gonna explain histograms in MAT Plotlib. Histograms are a visual representation of the distribution of quantitative data. In short, we can visualize the distribution of data. Histograms group values into bins. Think of these like intervals. We'll count how many fall in each range in each bucket or bin. Histograms are great for statistics and probability. In many cases, you'll see a bell curve distribution. Now, in this demonstration, I recommend using numpy because we'll need a lot of data to work with. With numpy, we can generate some random numbers. Here's how we can do that. We're going to create some test scores. We're a teacher and we have 100 students that each took a test. We'll create a visual to display the distribution of scores. We'll create a numpy array of scores. Scores equals Np, axis random, then call the normal function for a normal distribution. There's a few keyword arguments here we'll pass in. The first is LOC. LOC equals. LOC is the location of the center, the median of our data. For the center, we'll say that the median is 80. 80%. All of the test scores are going to cluster around this score of 80. Most students will do pretty well. If this were a lower score like 50, that means most of the students failed. That's because the most frequent score is going to be around 50%. We'll set that to be 80. Now we'll need a scale. This is another keyword argument. Scale equals. Scale is the standard deviation, the spread. How far away are the scores going to deviate from the center? The higher the number, the greater the deviation. Let's start with 10. And then we need to size how many numbers we want to generate. We'll set size equal to 100. We have 100 test scores. Let's test what we have currently. We'll access PLT, call the hist function for a histogram, pass in our numpy array of scores. Then we do have to call the show function to show our histogram. Access PLT, call the show function. Here's what a histogram looks like. We set the center to be 80. Scores around that number are going to be the most frequent. And we've set the scale to be 10. 10 is the standard deviation. That's a statistics and probability turn. How far away will the scores deviate from the center? Now if I set the scale to be a small number like 1, the scores are going to cluster more closely to 80. The lowest score was 77, the highest score was 82. If I set scale to be a big number like 50, well then the scores really deviate from the center of 80. We have some students that scored below 0 and others above 200. Let's set that back to 10. Just to ensure that no scores go below 0 or above 100, we can use the clip function. We'll reassign our numpy array of scores. Access numpy, call the clip function. We have to pass in our numpy array of scores. For any scores below 0, we'll set them to be 0. We'll clip them. For any scores above 100, we'll clip them down to 100. It's kind of like we're setting the bounds, the minimum and the maximum. All scores below 0 will be set to 0. All scores above 100 will be set to 100. Let's set the scale back to something massive like 50. Yep, there's no scores below 0 and no scores above 100. But we don't need a scale that big. Let's add some customization. You can set the number of bins that you want as another keyboard argument. This will be within the HIST function for a histogram. I'll set the number of bins to be 10. We should now have 10 bins or intervals. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. I'll set this to 20. We would now have 20. But I think 10 is a good number. Let's change the color. That's another keyboard argument. Color equals pick a color. I'll just set my histogram to be like green. There we go. To better define the edges, you can set an edge color. Because right now it kind of looks like one massive blob. Edge color equals, I'll set it to be black. We should get a nice outline around each interval or bin. Let's add some labels because well, I forgot to do that. Let's add a title, PLT, called the title function. We'll say exam scores. Let's make sure that that works. Yes, it does. Let's set a label for the x-axis. PLT, called the x-label function. We'll say score. Here we go. Score. And for the y-axis, PLT, called the y-label function. Number of students. Number of students is on the y-axis. Art everybody, so that's a histogram. It's a visual representation of the distribution of quantitative data. We're displaying the distribution of data. And while everybody, those are histograms in Matplotlib."
+}

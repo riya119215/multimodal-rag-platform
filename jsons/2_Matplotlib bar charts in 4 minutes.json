@@ -1,0 +1,474 @@
+{
+  "chunks": [
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 0.0,
+      "end": 3.2,
+      "text": " Alright everybody, for this topic we're going to create a bar chart."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 3.2,
+      "end": 9.040000000000001,
+      "text": " A bar chart compares categories of data by representing each category with a bar."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 9.040000000000001,
+      "end": 10.8,
+      "text": " Here's an example that I thought of."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 10.8,
+      "end": 17.2,
+      "text": " You know the food pyramid will create a bar chart to represent daily consumption of categories of foods."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 17.2,
+      "end": 19.76,
+      "text": " Here are the different categories. This will be a Python list."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 20.72,
+      "end": 24.560000000000002,
+      "text": " Categories equals will create a Python list."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 24.56,
+      "end": 30.0,
+      "text": " The first element within this list will be grains such as bread."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 30.0,
+      "end": 46.480000000000004,
+      "text": " Then fruit, vegetables, protein, dairy, and sweets."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 46.480000000000004,
+      "end": 52.16,
+      "text": " We'll create another Python list of values."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 53.12,
+      "end": 57.199999999999996,
+      "text": " For each of these categories, what value should each of them have?"
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 57.199999999999996,
+      "end": 60.239999999999995,
+      "text": " Let's pretend that these values are for daily servings."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 60.239999999999995,
+      "end": 63.76,
+      "text": " How many in each category did I consume today?"
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 63.76,
+      "end": 65.6,
+      "text": " We'll make up some numbers."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 65.6,
+      "end": 67.84,
+      "text": " For grains, this will be four."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 67.84,
+      "end": 70.64,
+      "text": " Fruit, three, vegetables."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 70.64,
+      "end": 72.88,
+      "text": " I don't eat very many vegetables, that will be two."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 72.88,
+      "end": 74.88,
+      "text": " Lots of protein, that's five."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 74.88,
+      "end": 77.67999999999999,
+      "text": " Dairy, three, and sweets, one."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 77.67999999999999,
+      "end": 80.47999999999999,
+      "text": " But feel free to make up your own numbers."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 81.44,
+      "end": 83.52000000000001,
+      "text": " Now, although it's not necessary,"
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 83.52000000000001,
+      "end": 86.72,
+      "text": " I'm going to convert these Python lists to be Numpier Rays."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 93.04,
+      "end": 94.88000000000001,
+      "text": " All right, we are ready to make a bar chart."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 95.60000000000001,
+      "end": 99.92,
+      "text": " Categories will be on the x-axis, values will be on the y-axis."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 100.56,
+      "end": 104.48,
+      "text": " Rather than using a plot such as PLT, call the plot function,"
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 104.48,
+      "end": 107.68,
+      "text": " we're instead going to use bar to make a bar chart."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 107.84,
+      "end": 112.72000000000001,
+      "text": " First, pass in what's going to be used for the x-axis, categories,"
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 112.72000000000001,
+      "end": 115.92,
+      "text": " comma, and the y-axis of values."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 115.92,
+      "end": 120.72000000000001,
+      "text": " And then you do have to show your bar chart, PLT,"
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 120.72000000000001,
+      "end": 125.68,
+      "text": " call the show function, and let's see what we have."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 125.68,
+      "end": 127.44000000000001,
+      "text": " Here we go."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 127.44000000000001,
+      "end": 131.44,
+      "text": " A bar chart compares categories of data"
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 131.44,
+      "end": 134.08,
+      "text": " by representing each category with a bar."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 134.08,
+      "end": 135.68,
+      "text": " Here are the categories that we've stated."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 136.64000000000001,
+      "end": 139.68,
+      "text": " Grains, fruit, vegetables, protein, dairy, sweets."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 139.68,
+      "end": 142.8,
+      "text": " And here are the values on the left-hand side for each."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 144.32,
+      "end": 146.8,
+      "text": " Let's add a title and two labels to our bar chart."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 148.64000000000001,
+      "end": 153.76000000000002,
+      "text": " PLT, call the title function, then pass in a title as a string."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 154.4,
+      "end": 156.56,
+      "text": " We'll say daily consumption."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 159.12,
+      "end": 160.32,
+      "text": " Let's make sure that works."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 161.12,
+      "end": 161.84,
+      "text": " Yes, it does."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 162.8,
+      "end": 165.52,
+      "text": " We'll add a label to the x-axis."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 166.56,
+      "end": 169.12,
+      "text": " PLT, x-label."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 170.96,
+      "end": 172.56,
+      "text": " We'll say the word food."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 175.12,
+      "end": 176.56,
+      "text": " Yep, it says food."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 176.56,
+      "end": 179.12,
+      "text": " And you can change the size if you want for these labels."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 179.6,
+      "end": 181.52,
+      "text": " But that might be overkill for this lesson."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 181.52,
+      "end": 183.52,
+      "text": " We've already covered that in the previous topic."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 185.2,
+      "end": 188.4,
+      "text": " PLT, call the y-label function."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 189.28,
+      "end": 193.28,
+      "text": " We'll pass in a string that says quantity."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 195.6,
+      "end": 197.52,
+      "text": " And it should say that on the left-hand side."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 198.32,
+      "end": 200.4,
+      "text": " Now let's change the color of our bar chart."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 201.44,
+      "end": 202.72,
+      "text": " When we call the bar function,"
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 203.52,
+      "end": 206.48000000000002,
+      "text": " we can set the color to be a color of your choice."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 206.48000000000002,
+      "end": 208.16,
+      "text": " You can pick a color name."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 208.16,
+      "end": 209.92000000000002,
+      "text": " You can use hexadecimal values."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 209.92000000000002,
+      "end": 211.28,
+      "text": " I'll just say sky blue."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 213.12,
+      "end": 214.8,
+      "text": " And the bar colors should change."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 215.84,
+      "end": 218.08,
+      "text": " Now if you would like a horizontal bar chart,"
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 218.72,
+      "end": 220.4,
+      "text": " I'll comment this line of code out."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 220.96,
+      "end": 221.52,
+      "text": " Copy it."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 222.24,
+      "end": 222.8,
+      "text": " Paste it."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 224.0,
+      "end": 226.8,
+      "text": " You're going to instead call the bar h function"
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 227.6,
+      "end": 229.12,
+      "text": " for a horizontal bar chart."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 229.68,
+      "end": 231.28,
+      "text": " Which looks a little something like this."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 232.64000000000001,
+      "end": 235.92000000000002,
+      "text": " But honestly, for me, I prefer the vertical bar chart."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 238.48000000000002,
+      "end": 239.28,
+      "text": " All right, everybody."
+    },
+    {
+      "number": "2",
+      "title": "Matplotlib bar charts in 4 minutes",
+      "start": 239.28,
+      "end": 243.04000000000002,
+      "text": " So that is how to create a basic bar chart using matplotlib."
+    }
+  ],
+  "text": " Alright everybody, for this topic we're going to create a bar chart. A bar chart compares categories of data by representing each category with a bar. Here's an example that I thought of. You know the food pyramid will create a bar chart to represent daily consumption of categories of foods. Here are the different categories. This will be a Python list. Categories equals will create a Python list. The first element within this list will be grains such as bread. Then fruit, vegetables, protein, dairy, and sweets. We'll create another Python list of values. For each of these categories, what value should each of them have? Let's pretend that these values are for daily servings. How many in each category did I consume today? We'll make up some numbers. For grains, this will be four. Fruit, three, vegetables. I don't eat very many vegetables, that will be two. Lots of protein, that's five. Dairy, three, and sweets, one. But feel free to make up your own numbers. Now, although it's not necessary, I'm going to convert these Python lists to be Numpier Rays. All right, we are ready to make a bar chart. Categories will be on the x-axis, values will be on the y-axis. Rather than using a plot such as PLT, call the plot function, we're instead going to use bar to make a bar chart. First, pass in what's going to be used for the x-axis, categories, comma, and the y-axis of values. And then you do have to show your bar chart, PLT, call the show function, and let's see what we have. Here we go. A bar chart compares categories of data by representing each category with a bar. Here are the categories that we've stated. Grains, fruit, vegetables, protein, dairy, sweets. And here are the values on the left-hand side for each. Let's add a title and two labels to our bar chart. PLT, call the title function, then pass in a title as a string. We'll say daily consumption. Let's make sure that works. Yes, it does. We'll add a label to the x-axis. PLT, x-label. We'll say the word food. Yep, it says food. And you can change the size if you want for these labels. But that might be overkill for this lesson. We've already covered that in the previous topic. PLT, call the y-label function. We'll pass in a string that says quantity. And it should say that on the left-hand side. Now let's change the color of our bar chart. When we call the bar function, we can set the color to be a color of your choice. You can pick a color name. You can use hexadecimal values. I'll just say sky blue. And the bar colors should change. Now if you would like a horizontal bar chart, I'll comment this line of code out. Copy it. Paste it. You're going to instead call the bar h function for a horizontal bar chart. Which looks a little something like this. But honestly, for me, I prefer the vertical bar chart. All right, everybody. So that is how to create a basic bar chart using matplotlib."
+}

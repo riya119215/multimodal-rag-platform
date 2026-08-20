@@ -1,0 +1,663 @@
+{
+  "chunks": [
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 0.0,
+      "end": 4.4,
+      "text": " Alright everybody, we are now going to create a bar chart using Matplotlib."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 4.4,
+      "end": 11.5,
+      "text": " A bar chart, it's a circular chart divided into slices to show percentages of the total."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 11.5,
+      "end": 15.200000000000001,
+      "text": " It's good for visualizing distribution among categories."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 15.200000000000001,
+      "end": 19.0,
+      "text": " In this demonstration, we're going to create a fictional college."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 19.0,
+      "end": 23.0,
+      "text": " There will be four classes, freshman, sophomore, junior, senior."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 23.0,
+      "end": 27.0,
+      "text": " We'll create a Python list of categories."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 28.0,
+      "end": 36.0,
+      "text": " We'll have freshman, sophomores."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 36.0,
+      "end": 41.0,
+      "text": " I think I misspelled that."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 41.0,
+      "end": 48.0,
+      "text": " Juniors and seniors."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 48.0,
+      "end": 54.0,
+      "text": " We'll also create a Python list of the number of students in each class."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 54.0,
+      "end": 57.0,
+      "text": " Values equals a Python list."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 57.0,
+      "end": 70.0,
+      "text": " We'll have 300 freshmen in our college, 250 sophomores, 275 juniors, and 225 seniors."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 70.0,
+      "end": 78.0,
+      "text": " If you're familiar with NumPy, you do have the option to convert any numerical Python lists to NumPy arrays."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 78.0,
+      "end": 82.0,
+      "text": " Although for a list of four values, it's not really too beneficial."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 82.0,
+      "end": 86.0,
+      "text": " If this were a larger data set, we would benefit from NumPy arrays more."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 86.0,
+      "end": 89.0,
+      "text": " But it would be a good habit for us to develop."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 89.0,
+      "end": 94.0,
+      "text": " Now, Python list of strings don't really benefit from NumPy arrays. We'll keep that as is."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 94.0,
+      "end": 98.0,
+      "text": " We have the two collections that we need, categories and values."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 98.0,
+      "end": 103.0,
+      "text": " To create a PyChart, we will access PLT, call the Py function."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 103.0,
+      "end": 105.0,
+      "text": " Pass in our values."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 106.0,
+      "end": 109.0,
+      "text": " Let me show you what just passing in values will look like."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 109.0,
+      "end": 114.0,
+      "text": " We will also call the show function PLT.Show function."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 114.0,
+      "end": 121.0,
+      "text": " We do have the distributions, but we don't have any labels. Here's how to set the labels."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 121.0,
+      "end": 125.0,
+      "text": " When we call the Py function, we will pass in a few keyword arguments."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 125.0,
+      "end": 130.0,
+      "text": " The first will be labels. What are the labels of our PyChart?"
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 130.0,
+      "end": 133.0,
+      "text": " The labels will be the categories that we have."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 133.0,
+      "end": 135.0,
+      "text": " Labels equals categories."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 135.0,
+      "end": 140.0,
+      "text": " And we should have some categories for each of these PyChart slices."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 140.0,
+      "end": 144.0,
+      "text": " Freshman, sophomores, juniors, seniors."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 144.0,
+      "end": 148.0,
+      "text": " You can add some percentages to each of these PyChart slices. Here's how."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 148.0,
+      "end": 151.0,
+      "text": " That's going to be another keyword argument."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 151.0,
+      "end": 156.0,
+      "text": " The keyword argument is Auto PCT."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 156.0,
+      "end": 158.0,
+      "text": " This means Auto Percentage."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 158.0,
+      "end": 161.0,
+      "text": " We have to set this equal to a formatting instruction."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 161.0,
+      "end": 166.0,
+      "text": " We're going to use Percent 1F."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 166.0,
+      "end": 170.0,
+      "text": " Let's see what we have."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 170.0,
+      "end": 173.0,
+      "text": " All right, we don't need all these digits after the decimal."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 173.0,
+      "end": 176.0,
+      "text": " Let's limit that."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 176.0,
+      "end": 183.0,
+      "text": " After 1, we'll add 0.1 to display 1 digit after the decimal."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 183.0,
+      "end": 188.0,
+      "text": " 28.6, 23.8, 26.2, 21.4."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 189.0,
+      "end": 192.0,
+      "text": " To add a percent sign after, we'll use double percent signs."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 192.0,
+      "end": 196.0,
+      "text": " Because normally using 1 percent sign is a format specifier."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 196.0,
+      "end": 200.0,
+      "text": " Okay, now there's a percent sign after each of these numbers."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 200.0,
+      "end": 203.0,
+      "text": " Here's how to set the colors for each PySlices."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 203.0,
+      "end": 207.0,
+      "text": " We'll create another list for convenience, which I will name colors."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 207.0,
+      "end": 209.0,
+      "text": " Colors equals."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 209.0,
+      "end": 213.0,
+      "text": " Then in order of your categories, place a color within here."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 213.0,
+      "end": 216.0,
+      "text": " You can choose a color name."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 216.0,
+      "end": 219.0,
+      "text": " RGB values, hexadecimal values."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 219.0,
+      "end": 221.0,
+      "text": " We'll just keep it simple and pick some color names."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 221.0,
+      "end": 223.0,
+      "text": " Freshman will be red."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 223.0,
+      "end": 227.0,
+      "text": " Softmores will be yellow."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 227.0,
+      "end": 229.0,
+      "text": " Juniors will be blue."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 229.0,
+      "end": 232.0,
+      "text": " Seniors will be green."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 232.0,
+      "end": 236.0,
+      "text": " And then we do have to pass that in as a keyword argument."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 236.0,
+      "end": 240.0,
+      "text": " Set colors equal to our list of colors."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 240.0,
+      "end": 242.0,
+      "text": " And the colors should change."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 242.0,
+      "end": 244.0,
+      "text": " Freshman are red."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 244.0,
+      "end": 246.0,
+      "text": " Softmores are yellow."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 246.0,
+      "end": 249.0,
+      "text": " Juniors are blue. Seniors are green."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 249.0,
+      "end": 252.0,
+      "text": " Let's add a title to our PyChart."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 252.0,
+      "end": 256.0,
+      "text": " PLT, called the title function, pass in a title."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 256.0,
+      "end": 260.0,
+      "text": " My college will be named Brocode College."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 260.0,
+      "end": 263.0,
+      "text": " Because I think I'm cool."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 263.0,
+      "end": 266.0,
+      "text": " You can explode one of these PySlices."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 266.0,
+      "end": 269.0,
+      "text": " Explode means to displace it slightly."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 269.0,
+      "end": 272.0,
+      "text": " If you need to highlight a PySlices."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 272.0,
+      "end": 276.0,
+      "text": " We'll explode seniors."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 276.0,
+      "end": 280.0,
+      "text": " For the keyword argument of explode."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 280.0,
+      "end": 284.0,
+      "text": " We'll set this equal to a Python list."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 284.0,
+      "end": 287.0,
+      "text": " We have four categories we'll need four values."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 287.0,
+      "end": 290.0,
+      "text": " I'll set each of these to be zero."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 290.0,
+      "end": 292.0,
+      "text": " I need to explode seniors."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 292.0,
+      "end": 295.0,
+      "text": " I'll set this to a value that's not one."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 295.0,
+      "end": 297.0,
+      "text": " Let's start with 0.1."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 297.0,
+      "end": 301.0,
+      "text": " The greater the number, the further the distance that PySlices will explode."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 302.0,
+      "end": 304.0,
+      "text": " Here's 0.1."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 304.0,
+      "end": 307.0,
+      "text": " Let's change that to 0.2."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 307.0,
+      "end": 310.0,
+      "text": " The distance traveled should be a little bit greater."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 310.0,
+      "end": 312.0,
+      "text": " Here's 0.3."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 312.0,
+      "end": 315.0,
+      "text": " We'll set that to be 0.2."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 315.0,
+      "end": 317.0,
+      "text": " That's pretty good."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 317.0,
+      "end": 320.0,
+      "text": " And 0.1."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 320.0,
+      "end": 324.0,
+      "text": " We can also add a drop shadow."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 324.0,
+      "end": 328.0,
+      "text": " Shadow equals true."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 329.0,
+      "end": 332.0,
+      "text": " And there should be a drop shadow for each PySlices."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 332.0,
+      "end": 335.0,
+      "text": " To rotate your PyChart."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 335.0,
+      "end": 339.0,
+      "text": " You'll set start, angle to be some angle."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 339.0,
+      "end": 343.0,
+      "text": " If I were to set this to be 180 for 180 degrees."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 343.0,
+      "end": 346.0,
+      "text": " My PyChart is going to rotate by 180 degrees."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 346.0,
+      "end": 351.0,
+      "text": " I'll just set that to be, let's check out 90."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 352.0,
+      "end": 354.0,
+      "text": " That's pretty good."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 354.0,
+      "end": 356.0,
+      "text": " Let's start everybody."
+    },
+    {
+      "number": "7",
+      "title": "Matplotlib pie charts in 6 minutes",
+      "start": 356.0,
+      "end": 360.0,
+      "text": " So that is how to create a basic PyChart using Matt Plotlib."
+    }
+  ],
+  "text": " Alright everybody, we are now going to create a bar chart using Matplotlib. A bar chart, it's a circular chart divided into slices to show percentages of the total. It's good for visualizing distribution among categories. In this demonstration, we're going to create a fictional college. There will be four classes, freshman, sophomore, junior, senior. We'll create a Python list of categories. We'll have freshman, sophomores. I think I misspelled that. Juniors and seniors. We'll also create a Python list of the number of students in each class. Values equals a Python list. We'll have 300 freshmen in our college, 250 sophomores, 275 juniors, and 225 seniors. If you're familiar with NumPy, you do have the option to convert any numerical Python lists to NumPy arrays. Although for a list of four values, it's not really too beneficial. If this were a larger data set, we would benefit from NumPy arrays more. But it would be a good habit for us to develop. Now, Python list of strings don't really benefit from NumPy arrays. We'll keep that as is. We have the two collections that we need, categories and values. To create a PyChart, we will access PLT, call the Py function. Pass in our values. Let me show you what just passing in values will look like. We will also call the show function PLT.Show function. We do have the distributions, but we don't have any labels. Here's how to set the labels. When we call the Py function, we will pass in a few keyword arguments. The first will be labels. What are the labels of our PyChart? The labels will be the categories that we have. Labels equals categories. And we should have some categories for each of these PyChart slices. Freshman, sophomores, juniors, seniors. You can add some percentages to each of these PyChart slices. Here's how. That's going to be another keyword argument. The keyword argument is Auto PCT. This means Auto Percentage. We have to set this equal to a formatting instruction. We're going to use Percent 1F. Let's see what we have. All right, we don't need all these digits after the decimal. Let's limit that. After 1, we'll add 0.1 to display 1 digit after the decimal. 28.6, 23.8, 26.2, 21.4. To add a percent sign after, we'll use double percent signs. Because normally using 1 percent sign is a format specifier. Okay, now there's a percent sign after each of these numbers. Here's how to set the colors for each PySlices. We'll create another list for convenience, which I will name colors. Colors equals. Then in order of your categories, place a color within here. You can choose a color name. RGB values, hexadecimal values. We'll just keep it simple and pick some color names. Freshman will be red. Softmores will be yellow. Juniors will be blue. Seniors will be green. And then we do have to pass that in as a keyword argument. Set colors equal to our list of colors. And the colors should change. Freshman are red. Softmores are yellow. Juniors are blue. Seniors are green. Let's add a title to our PyChart. PLT, called the title function, pass in a title. My college will be named Brocode College. Because I think I'm cool. You can explode one of these PySlices. Explode means to displace it slightly. If you need to highlight a PySlices. We'll explode seniors. For the keyword argument of explode. We'll set this equal to a Python list. We have four categories we'll need four values. I'll set each of these to be zero. I need to explode seniors. I'll set this to a value that's not one. Let's start with 0.1. The greater the number, the further the distance that PySlices will explode. Here's 0.1. Let's change that to 0.2. The distance traveled should be a little bit greater. Here's 0.3. We'll set that to be 0.2. That's pretty good. And 0.1. We can also add a drop shadow. Shadow equals true. And there should be a drop shadow for each PySlices. To rotate your PyChart. You'll set start, angle to be some angle. If I were to set this to be 180 for 180 degrees. My PyChart is going to rotate by 180 degrees. I'll just set that to be, let's check out 90. That's pretty good. Let's start everybody. So that is how to create a basic PyChart using Matt Plotlib."
+}

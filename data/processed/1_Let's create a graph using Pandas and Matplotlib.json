@@ -1,0 +1,621 @@
+{
+  "chunks": [
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 0.0,
+      "end": 5.84,
+      "text": " Yo, hey everybody in this video we're going to integrate both Pandas and Matplotlib."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 5.84,
+      "end": 10.52,
+      "text": " In my Panda series, we've been working with the CSV file that contains the stats for"
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 10.52,
+      "end": 13.36,
+      "text": " the original 150 Pokemon."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 13.36,
+      "end": 15.72,
+      "text": " We'll be reusing that in this series."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 15.72,
+      "end": 18.68,
+      "text": " Or if there's another set of data that you would like to work with, feel free to use"
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 18.68,
+      "end": 19.68,
+      "text": " that too."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 19.68,
+      "end": 23.240000000000002,
+      "text": " I'll post this in the comment section on YouTube and you can just copy and paste it if"
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 23.240000000000002,
+      "end": 24.240000000000002,
+      "text": " you would like."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 24.240000000000002,
+      "end": 27.44,
+      "text": " Just be sure to put it in a CSV file."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 27.44,
+      "end": 30.32,
+      "text": " Work with Pandas, we'll need to import it."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 30.32,
+      "end": 35.92,
+      "text": " Import Pandas will give it a nickname as PD for short."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 35.92,
+      "end": 40.56,
+      "text": " When we read a CSV file, we're going to assign it to be a data frame, which we will name"
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 40.56,
+      "end": 41.56,
+      "text": " DF."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 41.56,
+      "end": 50.56,
+      "text": " DF equals access Pandas as PD, call the read CSV function, and then pass in the name of"
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 50.56,
+      "end": 53.28,
+      "text": " that file or a file path."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 53.28,
+      "end": 56.92,
+      "text": " The name of my file is data.csv."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 56.92,
+      "end": 61.96,
+      "text": " And it's right next to my main Python file, I don't need a file path beforehand."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 61.96,
+      "end": 63.120000000000005,
+      "text": " Let's be sure that it works."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 63.120000000000005,
+      "end": 67.96000000000001,
+      "text": " I'm going to print my data frame."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 67.96000000000001,
+      "end": 71.52,
+      "text": " Here are all the stats of the original 150 Pokemon."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 71.52,
+      "end": 75.52000000000001,
+      "text": " It's a truncated view though, but that's good enough."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 75.52000000000001,
+      "end": 80.08,
+      "text": " We'll create a bar chart that shows the quantity of the primary types."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 80.08,
+      "end": 86.88,
+      "text": " For example, there's grass types, there's fire types, dragon types, so on and so forth."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 87.88,
+      "end": 92.56,
+      "text": " We'll be selecting only a single column, a single series, type one."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 92.56,
+      "end": 98.75999999999999,
+      "text": " There is a secondary type of type two, but we won't be concerned with that of this video."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 98.75999999999999,
+      "end": 102.91999999999999,
+      "text": " To select a single column, we'll be using the subscript operator, which is a set of"
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 102.91999999999999,
+      "end": 104.72,
+      "text": " straight brackets."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 104.72,
+      "end": 110.72,
+      "text": " Then select the column, we will select type one, that is the primary type."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 110.72,
+      "end": 115.0,
+      "text": " We'll be returned with a single series, a single column."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 115.0,
+      "end": 121.88,
+      "text": " There is a built-in function of series, it's called value underscore counts."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 121.88,
+      "end": 124.24,
+      "text": " And this is a function."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 124.24,
+      "end": 128.32,
+      "text": " This function will return the number in each category."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 128.32,
+      "end": 136.16,
+      "text": " So if I were to run this, we would have a total of 28 water types, 22 normal types,"
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 136.16,
+      "end": 142.08,
+      "text": " 14 poison types, 12 fire types, and a whole bunch more."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 142.08,
+      "end": 145.64000000000001,
+      "text": " We'll plot the quantity of each type."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 145.64000000000001,
+      "end": 152.04000000000002,
+      "text": " The index will put on the y-axis with a horizontal bar chart, and the values will place on the"
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 152.04000000000002,
+      "end": 154.16000000000003,
+      "text": " x-axis."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 154.16000000000003,
+      "end": 159.12,
+      "text": " Now for convenience, I'm going to assign our value counts."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 159.12,
+      "end": 167.96,
+      "text": " We'll say type underscore count equals this series."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 167.96,
+      "end": 170.4,
+      "text": " Type count will be a series."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 170.4,
+      "end": 174.0,
+      "text": " It will hold the amount of each type."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 174.0,
+      "end": 182.28,
+      "text": " Now to create a bar chart, we'll access PLT, call the bar function, we'll create a horizontal"
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 182.28,
+      "end": 184.96,
+      "text": " bar chart in just a moment."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 184.96,
+      "end": 192.88,
+      "text": " For the x-axis, we'll access our series of type count, but I would like just the index."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 192.88,
+      "end": 195.28,
+      "text": " We don't need the entire series."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 195.28,
+      "end": 198.88,
+      "text": " And for the y-axis, we'll need the values."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 198.88,
+      "end": 204.08,
+      "text": " Take our series of type count, access the values."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 204.08,
+      "end": 205.08,
+      "text": " Let's see what we have currently."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 205.08,
+      "end": 207.88,
+      "text": " We'll do a test run."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 207.88,
+      "end": 213.12,
+      "text": " Be sure to show your plot because I forgot to do that."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 213.12,
+      "end": 215.24,
+      "text": " There we go."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 215.24,
+      "end": 218.6,
+      "text": " Here's our bar chart, but we have a little bit of work to do."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 218.6,
+      "end": 221.56,
+      "text": " All of these index names are grouped together."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 221.56,
+      "end": 225.56,
+      "text": " Let's place them on the x-axis with a horizontal bar chart."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 225.56,
+      "end": 230.76,
+      "text": " We'll use a horizontal bar chart with bar H."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 230.76,
+      "end": 233.16,
+      "text": " That's a lot better."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 233.16,
+      "end": 237.8,
+      "text": " Now there in a sending order, I would like the values with the most on the top rather"
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 237.8,
+      "end": 238.8,
+      "text": " than the bottom."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 238.8,
+      "end": 244.68,
+      "text": " Well, when we create our type count series, we can pass in a keyword argument."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 244.68,
+      "end": 247.96,
+      "text": " A sending equals true."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 247.96,
+      "end": 251.16,
+      "text": " And they should now be in reverse order."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 251.16,
+      "end": 254.2,
+      "text": " You can change the colors if you would like."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 254.2,
+      "end": 258.71999999999997,
+      "text": " Pass in a keyword argument of color, then pick a color."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 258.71999999999997,
+      "end": 260.52,
+      "text": " I'll use a hex color picker."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 260.52,
+      "end": 263.64,
+      "text": " I'll pick something blue."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 263.64,
+      "end": 265.28,
+      "text": " That's pretty decent."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 265.28,
+      "end": 267.84,
+      "text": " I'll copy the hex value."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 267.84,
+      "end": 272.36,
+      "text": " And then paste it within that color, keyword argument."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 272.36,
+      "end": 274.36,
+      "text": " Not bad."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 274.36,
+      "end": 278.4,
+      "text": " I'll also add an edge color of black."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 278.4,
+      "end": 285.28,
+      "text": " Change color equals black."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 285.28,
+      "end": 287.0,
+      "text": " Let's add a title in some labels."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 287.0,
+      "end": 290.08,
+      "text": " PLT, called the title function."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 290.08,
+      "end": 298.03999999999996,
+      "text": " This title will be number of Pokemon by primary type."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 298.03999999999996,
+      "end": 299.88,
+      "text": " Let's make sure that it works."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 299.88,
+      "end": 302.12,
+      "text": " Yes, it does."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 302.12,
+      "end": 304.71999999999997,
+      "text": " For the x-axis, we'll say count."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 304.71999999999997,
+      "end": 307.96,
+      "text": " PLT, called the x-label function."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 308.96,
+      "end": 313.59999999999997,
+      "text": " Pass in the word of count."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 313.59999999999997,
+      "end": 314.68,
+      "text": " There we are."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 314.68,
+      "end": 319.71999999999997,
+      "text": " Then for the y-axis, axis PLT, call the y-label function."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 319.71999999999997,
+      "end": 322.47999999999996,
+      "text": " Pass in the word of type."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 325.67999999999995,
+      "end": 330.0,
+      "text": " Just to make sure everything fits, we're going to call the tight layout function."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 330.0,
+      "end": 331.84,
+      "text": " So that everything fits."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 331.84,
+      "end": 337.59999999999997,
+      "text": " PLT, call the tight layout function."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 337.6,
+      "end": 341.84000000000003,
+      "text": " And now everything should fit within our figure."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 341.84000000000003,
+      "end": 345.32000000000005,
+      "text": " Art everybody, so that's served as a final project for us."
+    },
+    {
+      "number": "1",
+      "title": "Let's create a graph using Pandas and Matplotlib",
+      "start": 345.32000000000005,
+      "end": 348.24,
+      "text": " That's how to use both pandas and matplotlib together."
+    }
+  ],
+  "text": " Yo, hey everybody in this video we're going to integrate both Pandas and Matplotlib. In my Panda series, we've been working with the CSV file that contains the stats for the original 150 Pokemon. We'll be reusing that in this series. Or if there's another set of data that you would like to work with, feel free to use that too. I'll post this in the comment section on YouTube and you can just copy and paste it if you would like. Just be sure to put it in a CSV file. Work with Pandas, we'll need to import it. Import Pandas will give it a nickname as PD for short. When we read a CSV file, we're going to assign it to be a data frame, which we will name DF. DF equals access Pandas as PD, call the read CSV function, and then pass in the name of that file or a file path. The name of my file is data.csv. And it's right next to my main Python file, I don't need a file path beforehand. Let's be sure that it works. I'm going to print my data frame. Here are all the stats of the original 150 Pokemon. It's a truncated view though, but that's good enough. We'll create a bar chart that shows the quantity of the primary types. For example, there's grass types, there's fire types, dragon types, so on and so forth. We'll be selecting only a single column, a single series, type one. There is a secondary type of type two, but we won't be concerned with that of this video. To select a single column, we'll be using the subscript operator, which is a set of straight brackets. Then select the column, we will select type one, that is the primary type. We'll be returned with a single series, a single column. There is a built-in function of series, it's called value underscore counts. And this is a function. This function will return the number in each category. So if I were to run this, we would have a total of 28 water types, 22 normal types, 14 poison types, 12 fire types, and a whole bunch more. We'll plot the quantity of each type. The index will put on the y-axis with a horizontal bar chart, and the values will place on the x-axis. Now for convenience, I'm going to assign our value counts. We'll say type underscore count equals this series. Type count will be a series. It will hold the amount of each type. Now to create a bar chart, we'll access PLT, call the bar function, we'll create a horizontal bar chart in just a moment. For the x-axis, we'll access our series of type count, but I would like just the index. We don't need the entire series. And for the y-axis, we'll need the values. Take our series of type count, access the values. Let's see what we have currently. We'll do a test run. Be sure to show your plot because I forgot to do that. There we go. Here's our bar chart, but we have a little bit of work to do. All of these index names are grouped together. Let's place them on the x-axis with a horizontal bar chart. We'll use a horizontal bar chart with bar H. That's a lot better. Now there in a sending order, I would like the values with the most on the top rather than the bottom. Well, when we create our type count series, we can pass in a keyword argument. A sending equals true. And they should now be in reverse order. You can change the colors if you would like. Pass in a keyword argument of color, then pick a color. I'll use a hex color picker. I'll pick something blue. That's pretty decent. I'll copy the hex value. And then paste it within that color, keyword argument. Not bad. I'll also add an edge color of black. Change color equals black. Let's add a title in some labels. PLT, called the title function. This title will be number of Pokemon by primary type. Let's make sure that it works. Yes, it does. For the x-axis, we'll say count. PLT, called the x-label function. Pass in the word of count. There we are. Then for the y-axis, axis PLT, call the y-label function. Pass in the word of type. Just to make sure everything fits, we're going to call the tight layout function. So that everything fits. PLT, call the tight layout function. And now everything should fit within our figure. Art everybody, so that's served as a final project for us. That's how to use both pandas and matplotlib together."
+}

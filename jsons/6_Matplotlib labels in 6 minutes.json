@@ -1,0 +1,369 @@
+{
+  "chunks": [
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 0.0,
+      "end": 4.32,
+      "text": " Alright, everybody in this next section, we're going to customize various labels,"
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 4.32,
+      "end": 9.6,
+      "text": " our title, and the ticks of our chart. Here's how we can customize those. In this demonstration,"
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 9.6,
+      "end": 15.76,
+      "text": " I have various class sizes year by year, the years 2023 through 2026. These are all"
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 15.76,
+      "end": 22.48,
+      "text": " non-py arrays, but you can use Python lists too. To set a title, we're going to access PLT,"
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 23.68,
+      "end": 29.12,
+      "text": " call the title function, and then we can pass in a title as a string. We'll set the title to be"
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 29.12,
+      "end": 38.160000000000004,
+      "text": " class size. Then we will run this and we should have a title. Class size, although it's kind of small"
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 38.160000000000004,
+      "end": 43.36,
+      "text": " and hard to read, here's how we can customize it further. We can pass in some keyword arguments,"
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 44.24,
+      "end": 49.760000000000005,
+      "text": " one of which is font size to change the font size. I'll set that to be 20."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 52.56,
+      "end": 58.08,
+      "text": " Here's the new title. You can also change the font family, and it's just family."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 59.12,
+      "end": 66.39999999999999,
+      "text": " A pick aerial. That's a professional looking font. You can set the font weight to be bold."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 68.16,
+      "end": 78.96,
+      "text": " Font weight equals the word bold. Let me make the title a little bit bigger. Let's say 25."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 80.32,
+      "end": 88.32,
+      "text": " That's better. Let's also set a color for our title. Color equals"
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 88.88,
+      "end": 94.39999999999999,
+      "text": " here. You can pick the name of a color. You can use RGB values. You can use hexadecimal values."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 95.6,
+      "end": 104.88,
+      "text": " I'll pick something kind of dark blue like that. I'll copy the hex value and then set the keyword"
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 104.88,
+      "end": 111.11999999999999,
+      "text": " argument of color to be that hexadecimal value. And now our title should be a specific shade of blue."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 111.68,
+      "end": 120.56,
+      "text": " Now we'll set a label for the x-axis. We will access PLT, call the function of x-label."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 122.4,
+      "end": 130.72,
+      "text": " We'll set the label to be year. And we should have a label on the x-axis for year,"
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 130.72,
+      "end": 137.12,
+      "text": " although it's kind of small. We'll change the font size. We'll copy the font size from our title,"
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 137.12,
+      "end": 147.92000000000002,
+      "text": " but set it to be 20. Here's the new font size. Let's change the font family. I'll pick aerial again."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 151.76,
+      "end": 162.48000000000002,
+      "text": " I'll set the font weight to be bold. And then I'll pick a color. I'll pick a lighter shade of blue."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 163.04,
+      "end": 176.88,
+      "text": " Let's try that. Color equals that specific shade of blue. Yeah, not bad. The label is kind of close to"
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 176.88,
+      "end": 182.07999999999998,
+      "text": " the border. We'll be adjusting the margin a little bit later in this topic. To create the label on the"
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 182.07999999999998,
+      "end": 189.12,
+      "text": " y-axis, I'm just going to copy everything within this x-label function, paste it, change x to y."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 189.6,
+      "end": 197.6,
+      "text": " We'll say the text will be, let's change the text of the label to be students as in number of students."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 197.6,
+      "end": 205.28,
+      "text": " We should have a similar label on the y-axis. Now we're going to customize the ticks of our graph."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 205.28,
+      "end": 211.44,
+      "text": " Each of these ticks is incrementing by .5 each. You can kind of see that here."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 211.44,
+      "end": 217.84,
+      "text": " You can force ticks to only display at these values for the x-axis. Here's how."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 218.24,
+      "end": 231.92000000000002,
+      "text": " We'll access PLT called the x-tix function x-tix. Then pass in our list or numpy array that we're using for the x-axis."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 233.92000000000002,
+      "end": 241.36,
+      "text": " So now we have ticks only at each given year 2023-2024-2025-2026."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 241.84,
+      "end": 252.8,
+      "text": " Now to customize the ticks, we will access PLT called the tick-paramys function, meaning tick parameters."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 252.8,
+      "end": 262.40000000000003,
+      "text": " To select an axis, you'll select the keyword argument of axis. You can select x, you can select y, or you can select both."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 262.40000000000003,
+      "end": 268.40000000000003,
+      "text": " We'll select both. We're going to select colors plural, not singular."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 268.79999999999995,
+      "end": 272.96,
+      "text": " I'll select the same colors as my labels."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 272.96,
+      "end": 281.28,
+      "text": " Now the ticks should be blue. I'm going to pick something a little bit darker. It's kind of hard to read."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 287.28,
+      "end": 287.67999999999995,
+      "text": " That's better."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 287.67999999999995,
+      "end": 291.84,
+      "text": " Some of these labels are a little too close to the border."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 291.84,
+      "end": 295.84,
+      "text": " To adjust the position of your plot, you can call the following method."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 296.23999999999995,
+      "end": 298.32,
+      "text": " Let's do so here."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 298.32,
+      "end": 306.56,
+      "text": " Access PLT called the sub plots adjust function."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 306.56,
+      "end": 310.79999999999995,
+      "text": " We're going to pick a side, for example the bottom."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 310.79999999999995,
+      "end": 318.47999999999996,
+      "text": " Bottom equals, then pick a number between 0 and 1. For example 0.5."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 319.20000000000005,
+      "end": 326.8,
+      "text": " The best way I can explain this is that after picking a side, top left, bottom right, in this case bottom,"
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 326.8,
+      "end": 331.6,
+      "text": " our subplot will stop at 0.5 or 50%."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 331.6,
+      "end": 340.08000000000004,
+      "text": " And the rest is all margin, but let's pick a smaller value such as 0.175, 17.5%."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 340.08000000000004,
+      "end": 344.08000000000004,
+      "text": " That's better. There's a little more margin now."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 344.88,
+      "end": 345.91999999999996,
+      "text": " Now for the left."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 350.47999999999996,
+      "end": 354.15999999999997,
+      "text": " I'll set the left to be 0.175 as well."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 357.84,
+      "end": 361.44,
+      "text": " That's a little too much. I'll set this to be 0.15."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 362.71999999999997,
+      "end": 364.0,
+      "text": " And maybe 0.14."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 364.79999999999995,
+      "end": 367.68,
+      "text": " I'm a little picky with this. That's not too bad."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 368.47999999999996,
+      "end": 372.56,
+      "text": " You could also do this with the top and the right as well, but we don't really need to."
+    },
+    {
+      "number": "6",
+      "title": "Matplotlib labels in 6 minutes",
+      "start": 372.56,
+      "end": 378.24,
+      "text": " Alright everybody, so that is how to add various labels to your plots in Mapplotlib."
+    }
+  ],
+  "text": " Alright, everybody in this next section, we're going to customize various labels, our title, and the ticks of our chart. Here's how we can customize those. In this demonstration, I have various class sizes year by year, the years 2023 through 2026. These are all non-py arrays, but you can use Python lists too. To set a title, we're going to access PLT, call the title function, and then we can pass in a title as a string. We'll set the title to be class size. Then we will run this and we should have a title. Class size, although it's kind of small and hard to read, here's how we can customize it further. We can pass in some keyword arguments, one of which is font size to change the font size. I'll set that to be 20. Here's the new title. You can also change the font family, and it's just family. A pick aerial. That's a professional looking font. You can set the font weight to be bold. Font weight equals the word bold. Let me make the title a little bit bigger. Let's say 25. That's better. Let's also set a color for our title. Color equals here. You can pick the name of a color. You can use RGB values. You can use hexadecimal values. I'll pick something kind of dark blue like that. I'll copy the hex value and then set the keyword argument of color to be that hexadecimal value. And now our title should be a specific shade of blue. Now we'll set a label for the x-axis. We will access PLT, call the function of x-label. We'll set the label to be year. And we should have a label on the x-axis for year, although it's kind of small. We'll change the font size. We'll copy the font size from our title, but set it to be 20. Here's the new font size. Let's change the font family. I'll pick aerial again. I'll set the font weight to be bold. And then I'll pick a color. I'll pick a lighter shade of blue. Let's try that. Color equals that specific shade of blue. Yeah, not bad. The label is kind of close to the border. We'll be adjusting the margin a little bit later in this topic. To create the label on the y-axis, I'm just going to copy everything within this x-label function, paste it, change x to y. We'll say the text will be, let's change the text of the label to be students as in number of students. We should have a similar label on the y-axis. Now we're going to customize the ticks of our graph. Each of these ticks is incrementing by .5 each. You can kind of see that here. You can force ticks to only display at these values for the x-axis. Here's how. We'll access PLT called the x-tix function x-tix. Then pass in our list or numpy array that we're using for the x-axis. So now we have ticks only at each given year 2023-2024-2025-2026. Now to customize the ticks, we will access PLT called the tick-paramys function, meaning tick parameters. To select an axis, you'll select the keyword argument of axis. You can select x, you can select y, or you can select both. We'll select both. We're going to select colors plural, not singular. I'll select the same colors as my labels. Now the ticks should be blue. I'm going to pick something a little bit darker. It's kind of hard to read. That's better. Some of these labels are a little too close to the border. To adjust the position of your plot, you can call the following method. Let's do so here. Access PLT called the sub plots adjust function. We're going to pick a side, for example the bottom. Bottom equals, then pick a number between 0 and 1. For example 0.5. The best way I can explain this is that after picking a side, top left, bottom right, in this case bottom, our subplot will stop at 0.5 or 50%. And the rest is all margin, but let's pick a smaller value such as 0.175, 17.5%. That's better. There's a little more margin now. Now for the left. I'll set the left to be 0.175 as well. That's a little too much. I'll set this to be 0.15. And maybe 0.14. I'm a little picky with this. That's not too bad. You could also do this with the top and the right as well, but we don't really need to. Alright everybody, so that is how to add various labels to your plots in Mapplotlib."
+}

@@ -1,0 +1,355 @@
+{
+  "chunks": [
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 0.0,
+      "end": 5.5200000000000005,
+      "text": " Yo, hey everybody in this video I'm going to show you how we can create subplots using matplotlib."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 5.5200000000000005,
+      "end": 11.200000000000001,
+      "text": " There's a couple definitions we'll need to cover. One of which is a figure. A figure is the entire"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 11.200000000000001,
+      "end": 17.52,
+      "text": " canvas in which we add a plot to. Then we have an axe. An axe is also known as a subplot."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 17.52,
+      "end": 23.36,
+      "text": " It's a single plot within a figure. A figure can contain multiple axes or subplots."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 24.080000000000002,
+      "end": 29.04,
+      "text": " We're going to call this subplots function. It's going to return a tuple that has a few things inside"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 29.04,
+      "end": 38.8,
+      "text": " of it. Just to demonstrate temporarily I'm going to print Axis PLT called the subplots function."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 39.92,
+      "end": 45.76,
+      "text": " Within the subplots function we're going to determine the layout of our figure. How many rows"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 45.76,
+      "end": 53.76,
+      "text": " in columns of subplots will be within our figure? For example, we could have a 2x2, 2 rows 2 columns"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 53.76,
+      "end": 64.32,
+      "text": " or 2x3, 2 rows 3 columns or a 3x2, 3 rows 2 columns. Let's stick with the 2x2 for now."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 65.03999999999999,
+      "end": 70.72,
+      "text": " I want to show you what this function returns exactly. It's a little complex but we'll break it down."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 73.36,
+      "end": 81.44,
+      "text": " The subplots function it will return a tuple. The tuple has two entities. A figure object"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 81.52,
+      "end": 89.67999999999999,
+      "text": " which is our canvas and a two-dimensional array of Axis objects. When we call this function,"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 89.67999999999999,
+      "end": 96.64,
+      "text": " we're going to unpack this tuple right away. Rather than use print, we're going to assign what's"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 96.64,
+      "end": 104.47999999999999,
+      "text": " returned to us and unpack it. We'll create a figure object and an Axis object."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 105.36,
+      "end": 110.56,
+      "text": " Figure and Axis equals call the subplots function."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 112.56,
+      "end": 118.08,
+      "text": " Figure is our canvas. We won't actually be using it in this topic but we're provided with it"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 118.08,
+      "end": 122.88000000000001,
+      "text": " by the subplots function. We'll print this tuple-dimensional list right away. Here's how."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 123.76,
+      "end": 129.36,
+      "text": " We'll plot each of these subplots but we won't add any data quite yet, not until later."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 129.36,
+      "end": 134.8,
+      "text": " If I was to call the show function, we can see all the subplots that we have. Axis PLT"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 134.8,
+      "end": 145.44000000000003,
+      "text": " call the show function. We have four subplots, two rows 2 columns. If this were a 1 by 2,"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 145.44000000000003,
+      "end": 155.28000000000003,
+      "text": " 1 row 2 columns, we have two subplots or a 2 by 1 which would be two rows 1 column. A 3 by 3"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 155.36,
+      "end": 161.52,
+      "text": " would be three rows 3 columns. We don't need that many subplots but I think you get the idea."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 163.76,
+      "end": 169.28,
+      "text": " We'll have a 2 by 2, two rows 2 columns. We'll fill each of these individual subplots in."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 169.28,
+      "end": 178.24,
+      "text": " Here's how. We'll start with the top left corner, row 0 column 0. We'll access our 2D list of"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 178.24,
+      "end": 186.0,
+      "text": " axes at row 0 column 0 and then plot it calling the plot function. We will need some data."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 186.8,
+      "end": 199.36,
+      "text": " We'll keep it simple. We'll say x equals a numpy array with a list that contains 1, 2, 3, 4, 5."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 200.0,
+      "end": 211.12,
+      "text": " We'll plot x but to keep it simple, we'll just say y will be x times 2. Let's take a look."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 214.32000000000002,
+      "end": 220.72000000000003,
+      "text": " We've selected the subplot at row 0 column 0. So only this one is filled in with our data."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 222.32000000000002,
+      "end": 227.36,
+      "text": " Let's customize it. Let's set the color to be red with a keyword argument."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 230.32000000000002,
+      "end": 238.48000000000002,
+      "text": " The color is now red and let's add a title. We need to select that specific subplot using a set of"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 238.48000000000002,
+      "end": 248.8,
+      "text": " indices. axes at row 0 column 0, call the set title function, then pass it a title. We'll say x times"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 248.8,
+      "end": 258.08000000000004,
+      "text": " 2 for the title. And there's the title for this specific subplot. Now we'll plot the top right"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 258.08,
+      "end": 266.47999999999996,
+      "text": " subplot. We need to select that specific one. That would be row 0 column 1. We'll call the plot"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 266.47999999999996,
+      "end": 277.36,
+      "text": " function, pass an x. We'll say x to the power of 2 for the y axis. Select a color. I'll select blue."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 277.44,
+      "end": 291.52000000000004,
+      "text": " Then set the title. axes at row 0 column 1. We will set the title to be x to the power of 2."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 293.92,
+      "end": 300.08000000000004,
+      "text": " The top right subplot should now be plotted. All right, let's select the bottom left corner."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 301.03999999999996,
+      "end": 309.2,
+      "text": " That will have different indices. axes at row 1 column 0 will call the plot function,"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 309.84,
+      "end": 317.59999999999997,
+      "text": " pass an x for y will say x to the power of 3. We'll set the color to be green."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 320.08,
+      "end": 329.52,
+      "text": " Then set a title. axes at indices of 1,0. Call the set title function"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 330.8,
+      "end": 333.52,
+      "text": " This will be x to the power of 3."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 336.8,
+      "end": 344.24,
+      "text": " Oops, looks like I missed bulk color. There we go. Some of these subplots are overlapping."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 345.28,
+      "end": 353.52,
+      "text": " You can add a tight layout so everything fits. Axes PLT, call the tight layout function."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 354.15999999999997,
+      "end": 360.4,
+      "text": " Now they should all fit in place. Let's finish this bottom right corner."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 361.12,
+      "end": 368.47999999999996,
+      "text": " I'll copy and paste the last two lines. That would be axes at row 1 column 1. This will be x to the"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 368.47999999999996,
+      "end": 377.35999999999996,
+      "text": " power of 4. The color will be purple. axes at row 1 column 1 will set the title to be x to the"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 377.36,
+      "end": 383.68,
+      "text": " power of 4. There we go. We have now filled in the bottom right corner."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 385.44,
+      "end": 393.36,
+      "text": " Now if this were a 3 by 3, well then only these four subplots are still filled in,"
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 393.36,
+      "end": 398.8,
+      "text": " but we really don't need that many. Now you don't necessarily need to use plots."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 398.8,
+      "end": 406.24,
+      "text": " You could use different graphs instead. Such as a bar chart or whatever else you would like."
+    },
+    {
+      "number": "9",
+      "title": "Matplotlib subplots in 6 minutes",
+      "start": 406.24,
+      "end": 410.96000000000004,
+      "text": " Art everybody and that is how to create subplots using matplotlib."
+    }
+  ],
+  "text": " Yo, hey everybody in this video I'm going to show you how we can create subplots using matplotlib. There's a couple definitions we'll need to cover. One of which is a figure. A figure is the entire canvas in which we add a plot to. Then we have an axe. An axe is also known as a subplot. It's a single plot within a figure. A figure can contain multiple axes or subplots. We're going to call this subplots function. It's going to return a tuple that has a few things inside of it. Just to demonstrate temporarily I'm going to print Axis PLT called the subplots function. Within the subplots function we're going to determine the layout of our figure. How many rows in columns of subplots will be within our figure? For example, we could have a 2x2, 2 rows 2 columns or 2x3, 2 rows 3 columns or a 3x2, 3 rows 2 columns. Let's stick with the 2x2 for now. I want to show you what this function returns exactly. It's a little complex but we'll break it down. The subplots function it will return a tuple. The tuple has two entities. A figure object which is our canvas and a two-dimensional array of Axis objects. When we call this function, we're going to unpack this tuple right away. Rather than use print, we're going to assign what's returned to us and unpack it. We'll create a figure object and an Axis object. Figure and Axis equals call the subplots function. Figure is our canvas. We won't actually be using it in this topic but we're provided with it by the subplots function. We'll print this tuple-dimensional list right away. Here's how. We'll plot each of these subplots but we won't add any data quite yet, not until later. If I was to call the show function, we can see all the subplots that we have. Axis PLT call the show function. We have four subplots, two rows 2 columns. If this were a 1 by 2, 1 row 2 columns, we have two subplots or a 2 by 1 which would be two rows 1 column. A 3 by 3 would be three rows 3 columns. We don't need that many subplots but I think you get the idea. We'll have a 2 by 2, two rows 2 columns. We'll fill each of these individual subplots in. Here's how. We'll start with the top left corner, row 0 column 0. We'll access our 2D list of axes at row 0 column 0 and then plot it calling the plot function. We will need some data. We'll keep it simple. We'll say x equals a numpy array with a list that contains 1, 2, 3, 4, 5. We'll plot x but to keep it simple, we'll just say y will be x times 2. Let's take a look. We've selected the subplot at row 0 column 0. So only this one is filled in with our data. Let's customize it. Let's set the color to be red with a keyword argument. The color is now red and let's add a title. We need to select that specific subplot using a set of indices. axes at row 0 column 0, call the set title function, then pass it a title. We'll say x times 2 for the title. And there's the title for this specific subplot. Now we'll plot the top right subplot. We need to select that specific one. That would be row 0 column 1. We'll call the plot function, pass an x. We'll say x to the power of 2 for the y axis. Select a color. I'll select blue. Then set the title. axes at row 0 column 1. We will set the title to be x to the power of 2. The top right subplot should now be plotted. All right, let's select the bottom left corner. That will have different indices. axes at row 1 column 0 will call the plot function, pass an x for y will say x to the power of 3. We'll set the color to be green. Then set a title. axes at indices of 1,0. Call the set title function This will be x to the power of 3. Oops, looks like I missed bulk color. There we go. Some of these subplots are overlapping. You can add a tight layout so everything fits. Axes PLT, call the tight layout function. Now they should all fit in place. Let's finish this bottom right corner. I'll copy and paste the last two lines. That would be axes at row 1 column 1. This will be x to the power of 4. The color will be purple. axes at row 1 column 1 will set the title to be x to the power of 4. There we go. We have now filled in the bottom right corner. Now if this were a 3 by 3, well then only these four subplots are still filled in, but we really don't need that many. Now you don't necessarily need to use plots. You could use different graphs instead. Such as a bar chart or whatever else you would like. Art everybody and that is how to create subplots using matplotlib."
+}

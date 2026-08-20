@@ -1,0 +1,978 @@
+{
+  "chunks": [
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 0.0,
+      "end": 4.88,
+      "text": " Alright, everybody in this video we're going to discuss scatter graphs in MATPLOT lib."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 4.88,
+      "end": 8.72,
+      "text": " Scatter graphs showed the relationship between two variables."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 8.72,
+      "end": 14.24,
+      "text": " They help to identify a correlation, positive, negative, or no correlation."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 14.24,
+      "end": 19.2,
+      "text": " For example, the more hours you study, the higher your test scores tend to be."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 19.2,
+      "end": 21.12,
+      "text": " That's a positive correlation."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 21.12,
+      "end": 24.240000000000002,
+      "text": " Scatter graphs help us identify those correlations."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 24.240000000000002,
+      "end": 27.28,
+      "text": " In this demonstration, I'll create the following data set."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 27.28,
+      "end": 31.200000000000003,
+      "text": " You can either follow along and type what I'm about to type or look in the comments section."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 31.200000000000003,
+      "end": 32.64,
+      "text": " I'll try and post the status set."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 33.36,
+      "end": 35.6,
+      "text": " We'll have x which will be a Python list."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 36.72,
+      "end": 39.44,
+      "text": " These will be our studied for various students."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 39.44,
+      "end": 41.04,
+      "text": " We'll have 10 values."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 41.6,
+      "end": 43.44,
+      "text": " The first student didn't study at all."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 43.44,
+      "end": 45.28,
+      "text": " They studied zero hours."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 45.28,
+      "end": 46.64,
+      "text": " Another studied one hour."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 47.44,
+      "end": 47.760000000000005,
+      "text": " One."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 48.72,
+      "end": 49.52,
+      "text": " Two."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 49.52,
+      "end": 50.400000000000006,
+      "text": " Three."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 50.400000000000006,
+      "end": 51.2,
+      "text": " Four."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 51.2,
+      "end": 52.0,
+      "text": " Five."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 52.0,
+      "end": 52.400000000000006,
+      "text": " Six."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 53.2,
+      "end": 54.0,
+      "text": " Seven."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 54.0,
+      "end": 54.64,
+      "text": " Seven."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 54.64,
+      "end": 54.96,
+      "text": " Eight."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 55.68,
+      "end": 57.44,
+      "text": " Feel free to make up some numbers too."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 57.44,
+      "end": 58.72,
+      "text": " It really doesn't make a difference."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 59.44,
+      "end": 61.76,
+      "text": " Then why will be the test scores?"
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 61.76,
+      "end": 63.28,
+      "text": " This will be another Python list."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 64.0,
+      "end": 68.24000000000001,
+      "text": " The student that didn't study at all, they got a 55% on their test score."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 68.24000000000001,
+      "end": 70.08,
+      "text": " The first value will be 55."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 70.64,
+      "end": 72.16,
+      "text": " Then another got 60."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 72.96000000000001,
+      "end": 73.76,
+      "text": " 65."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 74.4,
+      "end": 75.2,
+      "text": " 62."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 76.08,
+      "end": 76.8,
+      "text": " 68."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 77.84,
+      "end": 78.32,
+      "text": " 70."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 79.6,
+      "end": 80.4,
+      "text": " 75."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 81.6,
+      "end": 82.32,
+      "text": " 78."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 83.36,
+      "end": 84.08,
+      "text": " 82."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 85.6,
+      "end": 86.24,
+      "text": " 85."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 87.36,
+      "end": 88.0,
+      "text": " 87."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 88.64,
+      "end": 89.67999999999999,
+      "text": " That's good enough for now."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 91.52,
+      "end": 94.24,
+      "text": " To create a scatter graph, we're going to access PLT."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 94.96,
+      "end": 96.47999999999999,
+      "text": " Call the scatter function."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 97.6,
+      "end": 98.96,
+      "text": " Pass in x."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 98.96,
+      "end": 100.08,
+      "text": " Then pass in y."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 100.96,
+      "end": 104.24,
+      "text": " Access for the hours studied."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 106.32,
+      "end": 107.52,
+      "text": " Y is for the grades."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 110.24,
+      "end": 112.0,
+      "text": " What grade did they get on their test score?"
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 112.96,
+      "end": 118.0,
+      "text": " Then in order to show this graph, we have to call the show function PLT.Show function."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 118.72,
+      "end": 119.68,
+      "text": " Let's see what we have."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 122.0,
+      "end": 123.28,
+      "text": " Here is our scatter graph."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 124.16,
+      "end": 128.88,
+      "text": " You can see that there's a positive correlation between hours studied and the exam scores."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 129.84,
+      "end": 131.68,
+      "text": " Let's add some labels to our scatter graph."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 134.8,
+      "end": 139.04,
+      "text": " For the x label, access PLT, call the x label function."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 139.04,
+      "end": 141.04,
+      "text": " Then pass in a string to sort of as the label."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 142.0,
+      "end": 143.52,
+      "text": " Our study is good."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 145.04,
+      "end": 146.48,
+      "text": " Let's make sure that that works."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 147.36,
+      "end": 148.16,
+      "text": " Yes, it does."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 148.16,
+      "end": 149.76,
+      "text": " We have a label for our studied."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 150.4,
+      "end": 151.52,
+      "text": " For the y-axis."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 152.72,
+      "end": 154.72,
+      "text": " Call the y label function."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 155.28,
+      "end": 156.32,
+      "text": " Then pass in a string."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 157.36,
+      "end": 158.64,
+      "text": " We'll say grades."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 160.24,
+      "end": 161.28,
+      "text": " Or grade."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 161.28,
+      "end": 161.84,
+      "text": " Singular."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 162.64,
+      "end": 164.16,
+      "text": " Let's make sure that that works."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 165.12,
+      "end": 165.92000000000002,
+      "text": " Yes, it does."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 165.92000000000002,
+      "end": 167.12,
+      "text": " Here's the grade."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 167.12,
+      "end": 168.24,
+      "text": " Then let's add a title."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 169.44,
+      "end": 170.24,
+      "text": " PLT."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 170.24,
+      "end": 171.44,
+      "text": " Call the title function."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 172.16,
+      "end": 173.92,
+      "text": " I'm going to say test scores."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 175.04,
+      "end": 177.44,
+      "text": " Just as a general title for our scatter graph."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 178.88,
+      "end": 180.56,
+      "text": " Let's add a little bit of customization."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 182.64,
+      "end": 184.0,
+      "text": " Let's change the color."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 184.56,
+      "end": 186.0,
+      "text": " This will be a keyword argument."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 186.56,
+      "end": 188.4,
+      "text": " Color equals some color."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 188.96,
+      "end": 190.08,
+      "text": " You can pick a color name."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 190.08,
+      "end": 191.52,
+      "text": " You can use RGB values."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 192.24,
+      "end": 194.08,
+      "text": " I'll just say sky blue to keep it simple."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 195.28,
+      "end": 197.76,
+      "text": " And the color should change, which it does."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 198.56,
+      "end": 200.24,
+      "text": " You can also change the alpha."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 201.04000000000002,
+      "end": 203.12,
+      "text": " Alpha is related to the transparency."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 203.84,
+      "end": 206.4,
+      "text": " If I set alpha to be 0.5,"
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 207.04000000000002,
+      "end": 208.16,
+      "text": " that's 50%."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 209.60000000000002,
+      "end": 212.56,
+      "text": " The transparency is going to change, although it's a little hard to see."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 213.44,
+      "end": 215.12,
+      "text": " If I set alpha to be 0.1,"
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 215.68,
+      "end": 217.60000000000002,
+      "text": " then the transparency is 10%."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 217.60000000000002,
+      "end": 218.72,
+      "text": " And you can barely see it."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 219.20000000000002,
+      "end": 220.56,
+      "text": " I'll keep it at 50%."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 221.68,
+      "end": 224.32000000000002,
+      "text": " Let's change the size of our dots on our scatter graph."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 226.56,
+      "end": 228.32000000000002,
+      "text": " That would be s for size."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 228.79999999999998,
+      "end": 231.28,
+      "text": " Let's check out 100."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 234.23999999999998,
+      "end": 235.44,
+      "text": " That's bigger."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 236.23999999999998,
+      "end": 237.44,
+      "text": " Here's 200."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 238.72,
+      "end": 240.48,
+      "text": " Yeah, we can keep it at 200."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 240.48,
+      "end": 241.68,
+      "text": " That's a good size."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 242.32,
+      "end": 243.68,
+      "text": " Okay, let's create another data set."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 244.32,
+      "end": 246.32,
+      "text": " The following set of scores will be for one class."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 246.32,
+      "end": 248.32,
+      "text": " We'll add another class of scores."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 249.12,
+      "end": 252.32,
+      "text": " Although it's not necessary, I forgot to make these numpy arrays."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 253.28,
+      "end": 254.79999999999998,
+      "text": " You can if you would like."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 254.8,
+      "end": 263.68,
+      "text": " Let's rename x to be x1, y to be y1."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 264.48,
+      "end": 266.40000000000003,
+      "text": " Pass in x1 and y1."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 266.40000000000003,
+      "end": 268.16,
+      "text": " We're going to create a whole another set."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 269.12,
+      "end": 271.76,
+      "text": " Let's copy and paste x1 and y1."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 271.76,
+      "end": 274.32,
+      "text": " Rename them as x2 and y2."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 275.44,
+      "end": 277.68,
+      "text": " And let's change some of these values around."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 278.24,
+      "end": 283.52,
+      "text": " For the second set, we'll have 0, 1, 2, 2, 3, 4,"
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 284.4,
+      "end": 287.28,
+      "text": " 5, 6, 7, 8, 8."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 289.84,
+      "end": 292.64,
+      "text": " Then for the exam scores, for the second class, we'll have"
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 293.59999999999997,
+      "end": 310.56,
+      "text": " 50, 58, 65, 70, 72, 78, 83, 88, 92, 95, 97."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 310.56,
+      "end": 314.4,
+      "text": " We're going to call the scatter function again."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 315.92,
+      "end": 318.08,
+      "text": " We'll copy and paste what we had previously."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 318.96,
+      "end": 323.12,
+      "text": " But pass in x2 and y2, the second set of coordinates."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 324.0,
+      "end": 326.24,
+      "text": " Let's change the color to be red."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 328.88,
+      "end": 331.36,
+      "text": " The blue set of dots is for class 1."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 331.36,
+      "end": 333.36,
+      "text": " The red set of dots is for class 2."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 334.32,
+      "end": 336.72,
+      "text": " Based on this graph, we can't tell without a legend."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 337.44,
+      "end": 339.52,
+      "text": " The legend will tell you which class is which."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 341.36,
+      "end": 343.52,
+      "text": " But we'll need some labels."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 343.52,
+      "end": 345.36,
+      "text": " We'll pass those in as keyword arguments."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 346.72,
+      "end": 351.84,
+      "text": " For class 1, we'll set label equal to class a."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 353.36,
+      "end": 355.12,
+      "text": " And then for our second class,"
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 357.68,
+      "end": 359.12,
+      "text": " this will be class b."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 359.76,
+      "end": 361.6,
+      "text": " Label equals class b."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 362.4,
+      "end": 363.92,
+      "text": " But then we have to show the legend."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 364.72,
+      "end": 366.0,
+      "text": " Because it's not visible."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 366.48,
+      "end": 370.88,
+      "text": " Access PLT, call the legend function."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 373.68,
+      "end": 376.08,
+      "text": " Then we should have a legend within our scatter graph."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 376.72,
+      "end": 378.72,
+      "text": " Class a is the blue dots."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 378.72,
+      "end": 380.4,
+      "text": " Class b is the red dots."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 381.52,
+      "end": 383.92,
+      "text": " Art everybody, so those are scatter graphs."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 383.92,
+      "end": 386.88,
+      "text": " They show relationships between two variables."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 386.88,
+      "end": 389.84,
+      "text": " For example, our studied and exam grades."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 390.48,
+      "end": 394.0,
+      "text": " The more hours you study, the better grade you tend to get."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 394.0,
+      "end": 395.44,
+      "text": " That's a positive correlation."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 396.08,
+      "end": 397.6,
+      "text": " Which we can see from this graph here."
+    },
+    {
+      "number": "8",
+      "title": "Matplotlib scatter plots in 6 minutes",
+      "start": 398.4,
+      "end": 401.76,
+      "text": " And while everybody, those are scatter graphs using MAT plot lib."
+    }
+  ],
+  "text": " Alright, everybody in this video we're going to discuss scatter graphs in MATPLOT lib. Scatter graphs showed the relationship between two variables. They help to identify a correlation, positive, negative, or no correlation. For example, the more hours you study, the higher your test scores tend to be. That's a positive correlation. Scatter graphs help us identify those correlations. In this demonstration, I'll create the following data set. You can either follow along and type what I'm about to type or look in the comments section. I'll try and post the status set. We'll have x which will be a Python list. These will be our studied for various students. We'll have 10 values. The first student didn't study at all. They studied zero hours. Another studied one hour. One. Two. Three. Four. Five. Six. Seven. Seven. Eight. Feel free to make up some numbers too. It really doesn't make a difference. Then why will be the test scores? This will be another Python list. The student that didn't study at all, they got a 55% on their test score. The first value will be 55. Then another got 60. 65. 62. 68. 70. 75. 78. 82. 85. 87. That's good enough for now. To create a scatter graph, we're going to access PLT. Call the scatter function. Pass in x. Then pass in y. Access for the hours studied. Y is for the grades. What grade did they get on their test score? Then in order to show this graph, we have to call the show function PLT.Show function. Let's see what we have. Here is our scatter graph. You can see that there's a positive correlation between hours studied and the exam scores. Let's add some labels to our scatter graph. For the x label, access PLT, call the x label function. Then pass in a string to sort of as the label. Our study is good. Let's make sure that that works. Yes, it does. We have a label for our studied. For the y-axis. Call the y label function. Then pass in a string. We'll say grades. Or grade. Singular. Let's make sure that that works. Yes, it does. Here's the grade. Then let's add a title. PLT. Call the title function. I'm going to say test scores. Just as a general title for our scatter graph. Let's add a little bit of customization. Let's change the color. This will be a keyword argument. Color equals some color. You can pick a color name. You can use RGB values. I'll just say sky blue to keep it simple. And the color should change, which it does. You can also change the alpha. Alpha is related to the transparency. If I set alpha to be 0.5, that's 50%. The transparency is going to change, although it's a little hard to see. If I set alpha to be 0.1, then the transparency is 10%. And you can barely see it. I'll keep it at 50%. Let's change the size of our dots on our scatter graph. That would be s for size. Let's check out 100. That's bigger. Here's 200. Yeah, we can keep it at 200. That's a good size. Okay, let's create another data set. The following set of scores will be for one class. We'll add another class of scores. Although it's not necessary, I forgot to make these numpy arrays. You can if you would like. Let's rename x to be x1, y to be y1. Pass in x1 and y1. We're going to create a whole another set. Let's copy and paste x1 and y1. Rename them as x2 and y2. And let's change some of these values around. For the second set, we'll have 0, 1, 2, 2, 3, 4, 5, 6, 7, 8, 8. Then for the exam scores, for the second class, we'll have 50, 58, 65, 70, 72, 78, 83, 88, 92, 95, 97. We're going to call the scatter function again. We'll copy and paste what we had previously. But pass in x2 and y2, the second set of coordinates. Let's change the color to be red. The blue set of dots is for class 1. The red set of dots is for class 2. Based on this graph, we can't tell without a legend. The legend will tell you which class is which. But we'll need some labels. We'll pass those in as keyword arguments. For class 1, we'll set label equal to class a. And then for our second class, this will be class b. Label equals class b. But then we have to show the legend. Because it's not visible. Access PLT, call the legend function. Then we should have a legend within our scatter graph. Class a is the blue dots. Class b is the red dots. Art everybody, so those are scatter graphs. They show relationships between two variables. For example, our studied and exam grades. The more hours you study, the better grade you tend to get. That's a positive correlation. Which we can see from this graph here. And while everybody, those are scatter graphs using MAT plot lib."
+}

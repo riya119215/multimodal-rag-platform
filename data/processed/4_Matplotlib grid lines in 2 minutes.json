@@ -1,0 +1,208 @@
+{
+  "chunks": [
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 0.0,
+      "end": 6.32,
+      "text": " Hey everybody, I have a super quick video today on how to create grid lines using the grid function using map plotlib."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 6.32,
+      "end": 13.16,
+      "text": " The grid function creates grid lines. They help make plots easier to read by adding reference lines."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 13.16,
+      "end": 17.02,
+      "text": " We'll need some sample data to work with. We'll just make something up."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 17.02,
+      "end": 22.06,
+      "text": " On the x-axis we'll have 1, 2, 3, 4, 5."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 22.06,
+      "end": 24.96,
+      "text": " On the y-axis we'll have"
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 25.94,
+      "end": 32.78,
+      "text": " 5, 10, 15, 20, 25. It really doesn't matter. We're more focused on the grid lines today."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 32.78,
+      "end": 44.58,
+      "text": " We'll need a plot axis PLT, call the plot function, pass an x, pass an y, then axis plot, call the show function to show our plot."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 47.08,
+      "end": 51.96,
+      "text": " Here's our sample plot. Now let's say you would like to create some grid lines."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 51.96,
+      "end": 54.96,
+      "text": " For better readability, here's how."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 54.96,
+      "end": 60.96,
+      "text": " We're going to access PLT, call the grid function."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 60.96,
+      "end": 64.96000000000001,
+      "text": " Let's see what happens if we don't pass in any arguments."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 64.96000000000001,
+      "end": 71.96000000000001,
+      "text": " These are the grid lines with no customization. We have grid lines on the x-axis and the y-axis."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 71.96000000000001,
+      "end": 76.96000000000001,
+      "text": " If you would just like a single axis, you can specify that with the keyword argument."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 77.96,
+      "end": 81.96,
+      "text": " Axis equals, we'll pick the x-axis to begin with."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 83.96,
+      "end": 88.96,
+      "text": " We will only have vertical lines then on the x-axis by setting the axis to x."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 88.96,
+      "end": 94.96,
+      "text": " If we were to set this to y, we would have grid lines on the y-axis."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 95.96,
+      "end": 103.96,
+      "text": " You can change the line width, line width equals, normally it's 1 but here's 2."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 104.96,
+      "end": 108.96,
+      "text": " The lines are a little bit thicker. Here's 3."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 108.96,
+      "end": 111.96,
+      "text": " Let's set that back to 2."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 112.96,
+      "end": 118.96,
+      "text": " You can change the color, color equals, then select the color."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 118.96,
+      "end": 122.96,
+      "text": " I'll just pick light gray to keep it simple."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 124.96,
+      "end": 127.96,
+      "text": " The lines are now light gray."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 127.96,
+      "end": 132.95999999999998,
+      "text": " You can specify a line style, normally it's solid."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 133.96,
+      "end": 136.96,
+      "text": " Let's try dashed."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 136.96,
+      "end": 139.96,
+      "text": " Here's dashed."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 139.96,
+      "end": 142.96,
+      "text": " Here's dotted."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 142.96,
+      "end": 145.96,
+      "text": " Here's dash dot."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 147.96,
+      "end": 151.96,
+      "text": " But let's set this back to dashed."
+    },
+    {
+      "number": "4",
+      "title": "Matplotlib grid lines in 2 minutes",
+      "start": 153.96,
+      "end": 160.96,
+      "text": " All right everybody, that is a super quick lesson on how to create grid lines using matplotlib."
+    }
+  ],
+  "text": " Hey everybody, I have a super quick video today on how to create grid lines using the grid function using map plotlib. The grid function creates grid lines. They help make plots easier to read by adding reference lines. We'll need some sample data to work with. We'll just make something up. On the x-axis we'll have 1, 2, 3, 4, 5. On the y-axis we'll have 5, 10, 15, 20, 25. It really doesn't matter. We're more focused on the grid lines today. We'll need a plot axis PLT, call the plot function, pass an x, pass an y, then axis plot, call the show function to show our plot. Here's our sample plot. Now let's say you would like to create some grid lines. For better readability, here's how. We're going to access PLT, call the grid function. Let's see what happens if we don't pass in any arguments. These are the grid lines with no customization. We have grid lines on the x-axis and the y-axis. If you would just like a single axis, you can specify that with the keyword argument. Axis equals, we'll pick the x-axis to begin with. We will only have vertical lines then on the x-axis by setting the axis to x. If we were to set this to y, we would have grid lines on the y-axis. You can change the line width, line width equals, normally it's 1 but here's 2. The lines are a little bit thicker. Here's 3. Let's set that back to 2. You can change the color, color equals, then select the color. I'll just pick light gray to keep it simple. The lines are now light gray. You can specify a line style, normally it's solid. Let's try dashed. Here's dashed. Here's dotted. Here's dash dot. But let's set this back to dashed. All right everybody, that is a super quick lesson on how to create grid lines using matplotlib."
+}
